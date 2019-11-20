@@ -1,0 +1,80 @@
+ADDM4K3S8c : ADDM4K3S8RAM PORT MAP (
+                clock    => c1,
+                address    => ADDM4K3S8,
+                q    => aVar3S8
+    );
+ADDM4K3S9c : ADDM4K3S9RAM PORT MAP (
+                clock    => c1,
+                address    => ADDM4K3S9,
+                q    => aVar3S9
+    );
+ADDM4K3S12c : ADDM4K3S12RAM PORT MAP (
+                clock    => c1,
+                address    => ADDM4K3S12,
+                q    => aVar3S12
+    );
+ADDM4K3S13c : ADDM4K3S13RAM PORT MAP (
+                clock    => c1,
+                address    => ADDM4K3S13,
+                q    => aVar3S13
+    );
+ADDM4K3S10c : ADDM4K3S10RAM PORT MAP (
+                clock    => c1,
+                address    => ADDM4K3S10,
+                q    => aVar3S10
+    );
+ADDM4K3S11c : ADDM4K3S11RAM PORT MAP (
+                clock    => c1,
+                address    => ADDM4K3S11,
+                q    => aVar3S11
+    );
+ADDM4K3S14c : ADDM4K3S14RAM PORT MAP (
+                clock    => c1,
+                address    => ADDM4K3S14,
+                q    => aVar3S14
+    );
+ADDM4K3S15c : ADDM4K3S15RAM PORT MAP (
+                clock    => c1,
+                address    => ADDM4K3S15,
+                q    => aVar3S15
+    );
+ADDM4K3S2c : ADDM4K3S2RAM PORT MAP (
+                clock    => c1,
+                address    => ADDM4K3S2,
+                q    => aVar3S2
+    );
+ADDM4K3S3c : ADDM4K3S3RAM PORT MAP (
+                clock    => c1,
+                address    => ADDM4K3S3,
+                q    => aVar3S3
+    );
+ADDM4K3S4c : ADDM4K3S4RAM PORT MAP (
+                clock    => c1,
+                address    => ADDM4K3S4,
+                q    => aVar3S4
+    );
+ADDM4K3S5c : ADDM4K3S5RAM PORT MAP (
+                clock    => c1,
+                address    => ADDM4K3S5,
+                q    => aVar3S5
+    );
+ADDM4K3S6c : ADDM4K3S6RAM PORT MAP (
+                clock    => c1,
+                address    => ADDM4K3S6,
+                q    => aVar3S6
+    );
+ADDM4K3S7c : ADDM4K3S7RAM PORT MAP (
+                clock    => c1,
+                address    => ADDM4K3S7,
+                q    => aVar3S7
+    );
+ADDM4K3S0c : ADDM4K3S0RAM PORT MAP (
+                clock    => c1,
+                address    => ADDM4K3S0,
+                q    => aVar3S0
+    );
+ADDM4K3S1c : ADDM4K3S1RAM PORT MAP (
+                clock    => c1,
+                address    => ADDM4K3S1,
+                q    => aVar3S1
+    );

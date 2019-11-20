@@ -1,0 +1,60 @@
+Project: SeaQuestTrig1
+Revision: SeaQuestTrig1
+Flow Start Date: Mon Jan 06 12:17:18 CST 2014
+Flow End Date: Mon Jan 06 12:36:41 CST 2014
+
+Detailed Results
+Point,base,1,2,3,4,5,6 (Best)
+All Clock Hold Failing Paths,32,unknown,16,26,32,32,18
+All Clock Recovery Failing Paths,0,unknown,0,0,0,0,0
+All Clock Removal Failing Paths,0,unknown,0,0,0,0,0
+All Clock Setup Failing Paths,1,unknown,0,0,0,0,0
+All Failing Paths,33,unknown,16,26,32,32,18
+Average Slack for Failing Paths,-0.001,unknown,0.000,0.000,0.000,0.000,0.000
+Clock Hold: 'altpll0:inst7|altpll:altpll_component|_clk0': Actual Time,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+Clock Hold: 'altpll0:inst7|altpll:altpll_component|_clk0': Failed Paths,0,unknown,0,0,0,0,0
+Clock Hold: 'altpll0:inst7|altpll:altpll_component|_clk0': Slack,0.662 ns,unknown,0.662 ns,0.662 ns,0.663 ns,0.667 ns,0.662 ns
+Clock Hold: 'altpll0:inst7|altpll:altpll_component|_clk1': Actual Time,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+Clock Hold: 'altpll0:inst7|altpll:altpll_component|_clk1': Failed Paths,0,unknown,0,0,0,0,0
+Clock Hold: 'altpll0:inst7|altpll:altpll_component|_clk1': Slack,2.662 ns,unknown,2.662 ns,2.663 ns,2.662 ns,2.662 ns,2.662 ns
+Clock Hold: 'GLB1': Actual Time,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+Clock Hold: 'GLB1': Failed Paths,0,unknown,0,0,0,0,0
+Clock Hold: 'GLB1': Slack,0.662 ns,unknown,0.662 ns,0.662 ns,0.661 ns,0.662 ns,0.661 ns
+Clock Hold: 'LCLK': Actual Time,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+Clock Hold: 'LCLK': Failed Paths,32,unknown,16,26,32,32,18
+Clock Hold: 'LCLK': Slack,-4.085 ns,unknown,-2.295 ns,-2.102 ns,-4.449 ns,-4.919 ns,-1.520 ns
+Clock Period: Geometric Mean,5.4 ns,unknown,5.51 ns,5.55 ns,5.52 ns,5.27 ns,5.35 ns
+Clock Setup: 'altpll0:inst7|altpll:altpll_component|_clk0': Actual Time,4.020 ns,unknown,3.906 ns,3.906 ns,3.906 ns,3.906 ns,3.906 ns
+Clock Setup: 'altpll0:inst7|altpll:altpll_component|_clk0': Failed Paths,1,unknown,0,0,0,0,0
+Clock Setup: 'altpll0:inst7|altpll:altpll_component|_clk0': Slack,-0.020 ns,unknown,0.094 ns,0.094 ns,0.094 ns,0.094 ns,0.094 ns
+Clock Setup: 'altpll0:inst7|altpll:altpll_component|_clk1': Actual Time,2.468 ns,unknown,2.468 ns,2.468 ns,2.468 ns,2.468 ns,2.530 ns
+Clock Setup: 'altpll0:inst7|altpll:altpll_component|_clk1': Failed Paths,0,unknown,0,0,0,0,0
+Clock Setup: 'altpll0:inst7|altpll:altpll_component|_clk1': Slack,0.899 ns,unknown,0.911 ns,0.919 ns,0.925 ns,0.917 ns,0.735 ns
+Clock Setup: 'GLB1': Actual Time,8.168 ns,unknown,8.134 ns,8.569 ns,8.779 ns,7.984 ns,7.309 ns
+Clock Setup: 'GLB1': Failed Paths,0,unknown,0,0,0,0,0
+Clock Setup: 'GLB1': Slack,7.832 ns,unknown,7.866 ns,7.431 ns,7.221 ns,8.016 ns,8.691 ns
+Clock Setup: 'LCLK': Actual Time,10.490 ns,unknown,11.731 ns,11.524 ns,10.983 ns,9.990 ns,11.345 ns
+Clock Setup: 'LCLK': Failed Paths,0,unknown,0,0,0,0,0
+Clock Setup: 'LCLK': Slack,14.510 ns,unknown,13.269 ns,13.476 ns,14.017 ns,15.010 ns,13.655 ns
+Elapsed Time: Analysis & Synthesis,00:00:54,unknown,00:00:55,00:00:56,00:00:55,00:00:55,00:00:55
+Elapsed Time: Assembler,00:00:02,unknown,00:00:03,00:00:02,00:00:02,00:00:03,00:00:02
+Elapsed Time: Classic Timing Analyzer,00:00:03,unknown,00:00:03,00:00:04,00:00:04,00:00:03,00:00:04
+Elapsed Time: Fitter,00:02:01,unknown,00:02:04,00:02:01,00:02:02,00:02:02,00:02:05
+Elapsed Time: Total,00:03:00,unknown,00:03:05,00:03:03,00:03:03,00:03:03,00:03:06
+Quality of Fit,-2.5347875,unknown,-0.68458125,-0.4925,-2.8370625,-3.296075,0.086925
+Total block memory bits,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+Total logic elements,8103,unknown,8103,8103,8103,8103,8103
+Total Thermal Power Dissipation,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+Worst-case Slack,-4.085 ns (Clock Hold: 'LCLK'),unknown,-2.295 ns (Clock Hold: 'LCLK'),-2.102 ns (Clock Hold: 'LCLK'),-4.449 ns (Clock Hold: 'LCLK'),-4.919 ns (Clock Hold: 'LCLK'),-1.520 ns (Clock Hold: 'LCLK')
+Worst-case tco: Actual Time,19.495 ns,unknown,18.225 ns,19.408 ns,19.562 ns,20.260 ns,19.577 ns
+Worst-case tco: Failed Paths,0,unknown,0,0,0,0,0
+Worst-case tco: Slack,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+Worst-case th: Actual Time,-0.170 ns,unknown,0.036 ns,-0.132 ns,0.172 ns,0.151 ns,0.016 ns
+Worst-case th: Failed Paths,0,unknown,0,0,0,0,0
+Worst-case th: Slack,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+Worst-case tpd: Actual Time,18.846 ns,unknown,17.747 ns,17.927 ns,18.179 ns,18.158 ns,19.163 ns
+Worst-case tpd: Failed Paths,0,unknown,0,0,0,0,0
+Worst-case tpd: Slack,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+Worst-case tsu: Actual Time,13.929 ns,unknown,15.088 ns,14.472 ns,14.349 ns,14.914 ns,14.660 ns
+Worst-case tsu: Failed Paths,0,unknown,0,0,0,0,0
+Worst-case tsu: Slack,unknown,unknown,unknown,unknown,unknown,unknown,unknown

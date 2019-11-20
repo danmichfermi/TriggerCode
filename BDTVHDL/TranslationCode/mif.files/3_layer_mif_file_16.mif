@@ -1,0 +1,7 @@
+Depth = 0;
+Width = 16;
+ADDRESS_RADIX = HEX;
+DATA_RADIX = BIN;
+CONTENT
+BEGIN
+end;

@@ -1,0 +1,245 @@
+signal ADDM4K2S0: std_logic_vector(   3 downto 0);
+signal ADDM4K2S1: std_logic_vector(   3 downto 0);
+signal ADDM4K2S2: std_logic_vector(   1 downto 0);
+signal ADDM4K3S1: std_logic_vector(   1 downto 0);
+signal ADDM4K3S0: std_logic_vector(   7 downto 0);
+        if(oVar1S5='1' OR oVar1S6='1' OR 0='1' OR 0='1' )then
+          ADDM4K2S1(0)<='1'
+          else
+          ADDM4K2S1(0)<='0'
+          end if;
+        if(oVar1S12='1' OR oVar1S13='1' OR 0='1' OR 0='1' )then
+          ADDM4K2S1(1)<='1'
+          else
+          ADDM4K2S1(1)<='0'
+          end if;
+        if(cVar1N053N002P003N004nsss='1' OR cVar1N053P056N005P002nsss='1' OR cVar1N053P056psss='1' OR 0='1' )then
+          ADDM4K2S1(2)<='1'
+          else
+          ADDM4K2S1(2)<='0'
+          end if;
+        if(oVar1S7='1' OR oVar1S8='1' OR 0='1' OR 0='1' )then
+          ADDM4K2S1(3)<='1'
+          else
+          ADDM4K2S1(3)<='0'
+          end if;
+        if(cVar1N039P055nsss='1' OR cVar1N039P055P065N008nsss='1' OR cVar1N039P055P065psss='1' OR 0='1' )then
+          ADDM4K2S0(0)<='1'
+          else
+          ADDM4K2S0(0)<='0'
+          end if;
+        if(oVar1S14='1' OR oVar1S15='1' OR 0='1' OR 0='1' )then
+          ADDM4K2S0(1)<='1'
+          else
+          ADDM4K2S0(1)<='0'
+          end if;
+        if(cVar1N039P029N054nsss='1' OR cVar1N039P029N054P042nsss='1' OR cVar1N039P029psss='1' OR 0='1' )then
+          ADDM4K2S0(2)<='1'
+          else
+          ADDM4K2S0(2)<='0'
+          end if;
+        if(cVar1N039P029nsss='1' OR cVar1N039P029P060nsss='1' OR cVar1N039P029P060P027nsss='1' OR 0='1' )then
+          ADDM4K2S0(3)<='1'
+          else
+          ADDM4K2S0(3)<='0'
+          end if;
+        if(oVar1S0='1' OR oVar1S1='1' OR 0='1' OR 0='1' )then
+          ADDM4K2S2(0)<='1'
+          else
+          ADDM4K2S2(0)<='0'
+          end if;
+        if(oVar1S3='1' OR oVar1S4='1' OR 0='1' OR 0='1' )then
+          ADDM4K2S2(1)<='1'
+          else
+          ADDM4K2S2(1)<='0'
+          end if;
+        if(cVar1N039P055nsss='1' OR cVar1N039P055P065N008nsss='1' OR cVar1N039P055P065psss='1' OR 0='1' )then
+          ADDM4K3S0(0)<='1'
+          else
+          ADDM4K3S0(0)<='0'
+          end if;
+        if(oVar1S14='1' OR oVar1S15='1' OR 0='1' OR 0='1' )then
+          ADDM4K3S0(1)<='1'
+          else
+          ADDM4K3S0(1)<='0'
+          end if;
+        if(cVar1N039P029N054nsss='1' OR cVar1N039P029N054P042nsss='1' OR cVar1N039P029psss='1' OR 0='1' )then
+          ADDM4K3S0(2)<='1'
+          else
+          ADDM4K3S0(2)<='0'
+          end if;
+        if(cVar1N039P029nsss='1' OR cVar1N039P029P060nsss='1' OR cVar1N039P029P060P027nsss='1' OR 0='1' )then
+          ADDM4K3S0(3)<='1'
+          else
+          ADDM4K3S0(3)<='0'
+          end if;
+        if(oVar1S5='1' OR oVar1S6='1' OR 0='1' OR 0='1' )then
+          ADDM4K3S0(4)<='1'
+          else
+          ADDM4K3S0(4)<='0'
+          end if;
+        if(oVar1S12='1' OR oVar1S13='1' OR 0='1' OR 0='1' )then
+          ADDM4K3S0(5)<='1'
+          else
+          ADDM4K3S0(5)<='0'
+          end if;
+        if(cVar1N053N002P003N004nsss='1' OR cVar1N053P056N005P002nsss='1' OR cVar1N053P056psss='1' OR 0='1' )then
+          ADDM4K3S0(6)<='1'
+          else
+          ADDM4K3S0(6)<='0'
+          end if;
+        if(oVar1S7='1' OR oVar1S8='1' OR 0='1' OR 0='1' )then
+          ADDM4K3S0(7)<='1'
+          else
+          ADDM4K3S0(7)<='0'
+          end if;
+        if(oVar1S0='1' OR oVar1S1='1' OR 0='1' OR 0='1' )then
+          ADDM4K3S1(0)<='1'
+          else
+          ADDM4K3S1(0)<='0'
+          end if;
+        if(oVar1S3='1' OR oVar1S4='1' OR 0='1' OR 0='1' )then
+          ADDM4K3S1(1)<='1'
+          else
+          ADDM4K3S1(1)<='0'
+          end if;
+ADDM4K2S1_0: ADDM4K2S1_2_0 PORT MAP (
+                clock	=> clock_0
+                data	=> data_0
+                rdaddress	=> ADDM4K2S1(0)
+                wraddress	=> wraddress_0
+                wren	=> wren_0
+                q	=> q_0
+ADDM4K2S1_1: ADDM4K2S1_2_1 PORT MAP (
+                clock	=> clock_1
+                data	=> data_1
+                rdaddress	=> ADDM4K2S1(1)
+                wraddress	=> wraddress_1
+                wren	=> wren_1
+                q	=> q_1
+ADDM4K2S1_2: ADDM4K2S1_2_2 PORT MAP (
+                clock	=> clock_2
+                data	=> data_2
+                rdaddress	=> ADDM4K2S1(2)
+                wraddress	=> wraddress_2
+                wren	=> wren_2
+                q	=> q_2
+ADDM4K2S1_3: ADDM4K2S1_2_3 PORT MAP (
+                clock	=> clock_3
+                data	=> data_3
+                rdaddress	=> ADDM4K2S1(3)
+                wraddress	=> wraddress_3
+                wren	=> wren_3
+                q	=> q_3
+ADDM4K2S0_0: ADDM4K2S0_2_0 PORT MAP (
+                clock	=> clock_0
+                data	=> data_0
+                rdaddress	=> ADDM4K2S0(0)
+                wraddress	=> wraddress_0
+                wren	=> wren_0
+                q	=> q_0
+ADDM4K2S0_1: ADDM4K2S0_2_1 PORT MAP (
+                clock	=> clock_1
+                data	=> data_1
+                rdaddress	=> ADDM4K2S0(1)
+                wraddress	=> wraddress_1
+                wren	=> wren_1
+                q	=> q_1
+ADDM4K2S0_2: ADDM4K2S0_2_2 PORT MAP (
+                clock	=> clock_2
+                data	=> data_2
+                rdaddress	=> ADDM4K2S0(2)
+                wraddress	=> wraddress_2
+                wren	=> wren_2
+                q	=> q_2
+ADDM4K2S0_3: ADDM4K2S0_2_3 PORT MAP (
+                clock	=> clock_3
+                data	=> data_3
+                rdaddress	=> ADDM4K2S0(3)
+                wraddress	=> wraddress_3
+                wren	=> wren_3
+                q	=> q_3
+ADDM4K2S2_0: ADDM4K2S2_2_0 PORT MAP (
+                clock	=> clock_0
+                data	=> data_0
+                rdaddress	=> ADDM4K2S2(0)
+                wraddress	=> wraddress_0
+                wren	=> wren_0
+                q	=> q_0
+ADDM4K2S2_1: ADDM4K2S2_2_1 PORT MAP (
+                clock	=> clock_1
+                data	=> data_1
+                rdaddress	=> ADDM4K2S2(1)
+                wraddress	=> wraddress_1
+                wren	=> wren_1
+                q	=> q_1
+ADDM4K3S0_0: ADDM4K3S0_2_0 PORT MAP (
+                clock	=> clock_0
+                data	=> data_0
+                rdaddress	=> ADDM4K3S0(0)
+                wraddress	=> wraddress_0
+                wren	=> wren_0
+                q	=> q_0
+ADDM4K3S0_1: ADDM4K3S0_2_1 PORT MAP (
+                clock	=> clock_1
+                data	=> data_1
+                rdaddress	=> ADDM4K3S0(1)
+                wraddress	=> wraddress_1
+                wren	=> wren_1
+                q	=> q_1
+ADDM4K3S0_2: ADDM4K3S0_2_2 PORT MAP (
+                clock	=> clock_2
+                data	=> data_2
+                rdaddress	=> ADDM4K3S0(2)
+                wraddress	=> wraddress_2
+                wren	=> wren_2
+                q	=> q_2
+ADDM4K3S0_3: ADDM4K3S0_2_3 PORT MAP (
+                clock	=> clock_3
+                data	=> data_3
+                rdaddress	=> ADDM4K3S0(3)
+                wraddress	=> wraddress_3
+                wren	=> wren_3
+                q	=> q_3
+ADDM4K3S0_4: ADDM4K3S0_2_4 PORT MAP (
+                clock	=> clock_4
+                data	=> data_4
+                rdaddress	=> ADDM4K3S0(4)
+                wraddress	=> wraddress_4
+                wren	=> wren_4
+                q	=> q_4
+ADDM4K3S0_5: ADDM4K3S0_2_5 PORT MAP (
+                clock	=> clock_5
+                data	=> data_5
+                rdaddress	=> ADDM4K3S0(5)
+                wraddress	=> wraddress_5
+                wren	=> wren_5
+                q	=> q_5
+ADDM4K3S0_6: ADDM4K3S0_2_6 PORT MAP (
+                clock	=> clock_6
+                data	=> data_6
+                rdaddress	=> ADDM4K3S0(6)
+                wraddress	=> wraddress_6
+                wren	=> wren_6
+                q	=> q_6
+ADDM4K3S0_7: ADDM4K3S0_2_7 PORT MAP (
+                clock	=> clock_7
+                data	=> data_7
+                rdaddress	=> ADDM4K3S0(7)
+                wraddress	=> wraddress_7
+                wren	=> wren_7
+                q	=> q_7
+ADDM4K3S1_0: ADDM4K3S1_2_0 PORT MAP (
+                clock	=> clock_0
+                data	=> data_0
+                rdaddress	=> ADDM4K3S1(0)
+                wraddress	=> wraddress_0
+                wren	=> wren_0
+                q	=> q_0
+ADDM4K3S1_1: ADDM4K3S1_2_1 PORT MAP (
+                clock	=> clock_1
+                data	=> data_1
+                rdaddress	=> ADDM4K3S1(1)
+                wraddress	=> wraddress_1
+                wren	=> wren_1
+                q	=> q_1

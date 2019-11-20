@@ -1,0 +1,68 @@
+|mg9ab
+AeB <= lpm_compare:mgl_prim1.AeB
+dataa[0] => dataa[0].IN1
+dataa[1] => dataa[1].IN1
+dataa[2] => dataa[2].IN1
+dataa[3] => dataa[3].IN1
+dataa[4] => dataa[4].IN1
+dataa[5] => dataa[5].IN1
+dataa[6] => dataa[6].IN1
+dataa[7] => dataa[7].IN1
+datab[0] => datab[0].IN1
+datab[1] => datab[1].IN1
+datab[2] => datab[2].IN1
+datab[3] => datab[3].IN1
+datab[4] => datab[4].IN1
+datab[5] => datab[5].IN1
+datab[6] => datab[6].IN1
+datab[7] => datab[7].IN1
+
+
+|mg9ab|lpm_compare:mgl_prim1
+dataa[0] => cmpr_r9g:auto_generated.dataa[0]
+dataa[1] => cmpr_r9g:auto_generated.dataa[1]
+dataa[2] => cmpr_r9g:auto_generated.dataa[2]
+dataa[3] => cmpr_r9g:auto_generated.dataa[3]
+dataa[4] => cmpr_r9g:auto_generated.dataa[4]
+dataa[5] => cmpr_r9g:auto_generated.dataa[5]
+dataa[6] => cmpr_r9g:auto_generated.dataa[6]
+dataa[7] => cmpr_r9g:auto_generated.dataa[7]
+datab[0] => cmpr_r9g:auto_generated.datab[0]
+datab[1] => cmpr_r9g:auto_generated.datab[1]
+datab[2] => cmpr_r9g:auto_generated.datab[2]
+datab[3] => cmpr_r9g:auto_generated.datab[3]
+datab[4] => cmpr_r9g:auto_generated.datab[4]
+datab[5] => cmpr_r9g:auto_generated.datab[5]
+datab[6] => cmpr_r9g:auto_generated.datab[6]
+datab[7] => cmpr_r9g:auto_generated.datab[7]
+clock => ~NO_FANOUT~
+aclr => ~NO_FANOUT~
+clken => ~NO_FANOUT~
+alb <= <GND>
+aeb <= cmpr_r9g:auto_generated.aeb
+agb <= <GND>
+aleb <= <GND>
+aneb <= <GND>
+ageb <= <GND>
+
+
+|mg9ab|lpm_compare:mgl_prim1|cmpr_r9g:auto_generated
+aeb <= aeb_result_wire[0].DB_MAX_OUTPUT_PORT_TYPE
+dataa[0] => data_wire[0].IN0
+dataa[1] => data_wire[0].IN0
+dataa[2] => data_wire[1].IN0
+dataa[3] => data_wire[1].IN0
+dataa[4] => data_wire[2].IN0
+dataa[5] => data_wire[2].IN0
+dataa[6] => data_wire[3].IN0
+dataa[7] => data_wire[3].IN0
+datab[0] => data_wire[0].IN1
+datab[1] => data_wire[0].IN1
+datab[2] => data_wire[1].IN1
+datab[3] => data_wire[1].IN1
+datab[4] => data_wire[2].IN1
+datab[5] => data_wire[2].IN1
+datab[6] => data_wire[3].IN1
+datab[7] => data_wire[3].IN1
+
+

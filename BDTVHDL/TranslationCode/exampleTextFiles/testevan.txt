@@ -1,0 +1,100 @@
+equalSpacing.txt
+Type
+Text
+Size
+4 KB (4,185 bytes)
+Storage used
+0 bytesOwned by umich.edu
+Location
+equal spacing
+Owner
+Evan Chang
+Modified
+Feb 26, 2019 by Evan Chang
+Opened
+4:49 AM by me
+Created
+Feb 26, 2019
+Add a description
+Viewers can download
+ FCN=4.7077 FROM MIGRAD    STATUS=CONVERGED      37 CALLS          38 TOTAL
+                     EDM=1.83301e-07    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.25170e+00   1.16162e-01   7.14150e-05  -9.39936e-03
+   2  p1          -4.82982e-06   3.75862e-06   3.00000e-09  -2.96998e+02
+-2ln(L): 0.261325
+AIC: 4.26133
+BIC: 4.42021
+f1 1.251695 -0.000005 0.784616 
+ FCN=6.76773 FROM MIGRAD    STATUS=CONVERGED      42 CALLS          43 TOTAL
+                     EDM=2.79553e-13    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.20605e+00   7.46515e-02   5.35294e-05   1.71761e-05
+   2  p1          -2.13033e-06   2.59474e-06   1.86057e-09   5.43477e-01
+-2ln(L): 0.102801
+AIC: 4.1028
+BIC: 4.26168
+f1 1.206051 -0.000002 1.127956 
+ FCN=3.2544 FROM MIGRAD    STATUS=CONVERGED      42 CALLS          43 TOTAL
+                     EDM=6.70141e-12    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.18072e+00   5.91317e-02   3.26247e-05   1.06767e-04
+   2  p1          -1.42171e-06   2.08067e-06   1.14797e-09   3.11544e+00
+-2ln(L): 0.0362869
+AIC: 4.03629
+BIC: 4.19517
+f1 1.180719 -0.000001 0.542400 
+ FCN=2.33452 FROM MIGRAD    STATUS=CONVERGED      42 CALLS          43 TOTAL
+                     EDM=4.63102e-12    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.28267e+00   6.32819e-02   2.98157e-05   8.54712e-05
+   2  p1          -5.60479e-06   2.09227e-06   9.85785e-10   2.69448e+00
+-2ln(L): 0.18858
+AIC: 4.18858
+BIC: 4.34746
+f1 1.282670 -0.000006 0.389087 
+ FCN=6.41673 FROM MIGRAD    STATUS=CONVERGED      42 CALLS          43 TOTAL
+                     EDM=8.48616e-14    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.31727e+00   8.85365e-02   5.70492e-05   8.40622e-06
+   2  p1          -6.85019e-06   3.05674e-06   1.96964e-09   2.78138e-01
+-2ln(L): 0.243636
+AIC: 4.24364
+BIC: 4.40252
+f1 1.317267 -0.000007 1.069454 
+ FCN=8.36476 FROM MIGRAD    STATUS=CONVERGED      41 CALLS          42 TOTAL
+                     EDM=3.20175e-12    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.10976e+00   8.54340e-02   7.60965e-05   1.46419e-05
+   2  p1           3.12297e-07   3.31737e-06   2.95480e-09  -4.26175e-01
+-2ln(L): 0.196903
+AIC: 4.1969
+BIC: 4.35579
+f1 1.109764 0.000000 1.394127 
+ FCN=2.84846 FROM MIGRAD    STATUS=CONVERGED      40 CALLS          41 TOTAL
+                     EDM=1.65041e-12    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.16645e+00   1.72033e-01   7.34388e-05   2.31504e-05
+   2  p1          -4.06702e-06   6.93663e-06   3.00000e-09   5.69922e-01
+-2ln(L): 0.158926
+AIC: 4.15893
+BIC: 4.31781
+f1 1.166449 -0.000004 0.474743 
+ FCN=1.20464 FROM MIGRAD    STATUS=CONVERGED      35 CALLS          36 TOTAL
+                     EDM=1.46042e-09    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.59273e+00   5.18147e-01   1.63936e-04  -2.34177e-04
+   2  p1          -3.86073e-05   2.55682e-05   3.00000e-08  -4.69288e+00
+-2ln(L): 1.31136
+AIC: 5.31136
+BIC: 4.53023
+f1 1.592730 -0.000039 0.401546 
+(int)0

@@ -1,0 +1,16 @@
+signal ADDM4K3S1: std_logic_vector(   7 downto 0);
+signal ADDM4K3S0: std_logic_vector(   7 downto 0);
+signal ADDM4K3S3: std_logic_vector(   7 downto 0);
+signal ADDM4K3S2: std_logic_vector(   7 downto 0);
+signal ADDM4K3S5: std_logic_vector(   7 downto 0);
+signal ADDM4K3S4: std_logic_vector(   7 downto 0);
+signal ADDM4K3S7: std_logic_vector(   7 downto 0);
+signal ADDM4K3S6: std_logic_vector(   7 downto 0);
+signal ADDM4K3S9: std_logic_vector(   7 downto 0);
+signal ADDM4K3S8: std_logic_vector(   7 downto 0);
+signal ADDM4K3S11: std_logic_vector(   7 downto 0);
+signal ADDM4K3S10: std_logic_vector(   7 downto 0);
+signal ADDM4K3S13: std_logic_vector(   7 downto 0);
+signal ADDM4K3S12: std_logic_vector(   7 downto 0);
+signal ADDM4K3S15: std_logic_vector(   7 downto 0);
+signal ADDM4K3S14: std_logic_vector(   7 downto 0);

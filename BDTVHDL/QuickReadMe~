@@ -1,0 +1,19 @@
+Quick Readme (Made much later) 
+
+2 basic components:
+
+1. Shell code assembly FPGA's
+2. Memory file assembly
+
+Different sets of shell codes are based around different hardware arrangements. 
+
+
+1- Code is based around some local names which should be edited. The code also is based around certain BDT arrangements or 
+tree numbers with depths. The code could be changed in order to massively increase the flexibility but there are diminishing
+returns. Pay attention to the output/input rules based on how FPGA's are programmed. Current mode was tested by reading memory
+addressess or values. Some portions were changed to hard coded pieces in order to simply pieces to ensure accuracy and testability in the short term. 
+
+2- Memory file assemblies and modes are based around the number of trees again. 2 basic modes are readily implemented. 
+Addition bash code could be employed to simplify tasks and move components around automatically. 
+
+

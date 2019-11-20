@@ -1,0 +1,25 @@
+|mg8t9
+data[0] => data[0].IN1
+data[1] => data[1].IN1
+result[0] <= lpm_mux:mgl_prim1.result
+sel[0] => sel[0].IN1
+
+
+|mg8t9|lpm_mux:mgl_prim1
+data[0][0] => mux_3fc:auto_generated.data[0]
+data[1][0] => mux_3fc:auto_generated.data[1]
+sel[0] => mux_3fc:auto_generated.sel[0]
+clock => ~NO_FANOUT~
+aclr => ~NO_FANOUT~
+clken => ~NO_FANOUT~
+result[0] <= mux_3fc:auto_generated.result[0]
+
+
+|mg8t9|lpm_mux:mgl_prim1|mux_3fc:auto_generated
+data[0] => result_node[0].IN1
+data[1] => result_node[0].IN1
+result[0] <= result_node[0].DB_MAX_OUTPUT_PORT_TYPE
+sel[0] => result_node[0].IN0
+sel[0] => _.IN0
+
+

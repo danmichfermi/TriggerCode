@@ -1,0 +1,6 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="mg8te">
+		<CBX_INST_ENTRY INSTANCE_NAME="|mg8te|lpm_compare:mgl_prim1" CBX_FILE_NAME="cmpr_20j.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

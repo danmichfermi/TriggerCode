@@ -1,0 +1,69 @@
+
+<RESULTS project="SeaQuestTrig1" revname="__dse_temp_rev" isbest="0" arcname="" wasCompiled="1" name="">
+ <COPYRIGHT>Copyright (C) 2002 Altera Corporation. All rights reserved.
+                This information and code is highly confidential and proprietary
+                information and code of Altera and is being provided in accordance
+                with and subject to the protections of a non-disclosure agreement
+                which governs its use and disclosure.  Altera products and services
+                are protected under numerous U.S. and foreign patents, maskwork rights
+                copyrights and other intellectual property laws.  Altera assumes no
+                responsibility or liability arising out of the application or use
+                of this information and code. This notice must be retained and
+                reprinted on any copies of this information and code that are
+                permitted to be made.</COPYRIGHT>
+ <SETTING name="SEED">6</SETTING>
+ <RESULT name="Clock Hold: 'GLB1': Failed Paths">0</RESULT>
+ <RESULT name="Quality of Fit">0.086925</RESULT>
+ <RESULT name="Worst-case tpd: Actual Time">19.163 ns</RESULT>
+ <RESULT name="Clock Setup: 'altpll0:inst7|altpll:altpll_component|_clk0': Failed Paths">0</RESULT>
+ <RESULT name="Elapsed Time: Total">00:03:06</RESULT>
+ <RESULT name="Elapsed Time: Assembler">00:00:02</RESULT>
+ <RESULT name="Clock Setup: 'GLB1': Actual Time">7.309 ns</RESULT>
+ <RESULT name="Worst-case Slack">-1.520 ns (Clock Hold: 'LCLK')</RESULT>
+ <RESULT name="All Clock Hold Failing Paths">18</RESULT>
+ <RESULT name="All Clock Recovery Failing Paths">0</RESULT>
+ <RESULT name="Total logic elements">8103</RESULT>
+ <RESULT name="Clock Setup: 'altpll0:inst7|altpll:altpll_component|_clk0': Actual Time">3.906 ns</RESULT>
+ <RESULT name="Worst-case tpd: Slack">unknown</RESULT>
+ <RESULT name="All Clock Setup Failing Paths">0</RESULT>
+ <RESULT name="Worst-case tco: Actual Time">19.577 ns</RESULT>
+ <RESULT name="Clock Hold: 'LCLK': Slack">-1.520 ns</RESULT>
+ <RESULT name="Worst-case tsu: Failed Paths">0</RESULT>
+ <RESULT name="Clock Setup: 'altpll0:inst7|altpll:altpll_component|_clk0': Slack">0.094 ns</RESULT>
+ <RESULT name="Elapsed Time: Fitter">00:02:05</RESULT>
+ <RESULT name="Clock Setup: 'altpll0:inst7|altpll:altpll_component|_clk1': Slack">0.735 ns</RESULT>
+ <RESULT name="Worst-case tsu: Actual Time">14.660 ns</RESULT>
+ <RESULT name="Clock Setup: 'LCLK': Failed Paths">0</RESULT>
+ <RESULT name="Clock Hold: 'altpll0:inst7|altpll:altpll_component|_clk0': Slack">0.662 ns</RESULT>
+ <RESULT name="Clock Hold: 'altpll0:inst7|altpll:altpll_component|_clk1': Failed Paths">0</RESULT>
+ <RESULT name="Average Slack for Failing Paths">0.000</RESULT>
+ <RESULT name="Worst-case th: Failed Paths">0</RESULT>
+ <RESULT name="Clock Setup: 'LCLK': Slack">13.655 ns</RESULT>
+ <RESULT name="Clock Hold: 'altpll0:inst7|altpll:altpll_component|_clk1': Slack">2.662 ns</RESULT>
+ <RESULT name="Worst-case tsu: Slack">unknown</RESULT>
+ <RESULT name="Worst-case tco: Failed Paths">0</RESULT>
+ <RESULT name="Worst-case th: Actual Time">0.016 ns</RESULT>
+ <RESULT name="Elapsed Time: Classic Timing Analyzer">00:00:04</RESULT>
+ <RESULT name="Clock Hold: 'LCLK': Failed Paths">18</RESULT>
+ <RESULT name="Clock Hold: 'altpll0:inst7|altpll:altpll_component|_clk0': Failed Paths">0</RESULT>
+ <RESULT name="Total block memory bits">unknown</RESULT>
+ <RESULT name="Worst-case th: Slack">unknown</RESULT>
+ <RESULT name="Clock Hold: 'GLB1': Actual Time">unknown</RESULT>
+ <RESULT name="Clock Setup: 'LCLK': Actual Time">11.345 ns</RESULT>
+ <RESULT name="Clock Hold: 'altpll0:inst7|altpll:altpll_component|_clk1': Actual Time">unknown</RESULT>
+ <RESULT name="Worst-case tpd: Failed Paths">0</RESULT>
+ <RESULT name="Elapsed Time: Analysis &amp; Synthesis">00:00:55</RESULT>
+ <RESULT name="All Clock Removal Failing Paths">0</RESULT>
+ <RESULT name="Clock Hold: 'altpll0:inst7|altpll:altpll_component|_clk0': Actual Time">unknown</RESULT>
+ <RESULT name="Worst-case tco: Slack">unknown</RESULT>
+ <RESULT name="Clock Hold: 'GLB1': Slack">0.661 ns</RESULT>
+ <RESULT name="All Failing Paths">18</RESULT>
+ <RESULT name="Clock Hold: 'LCLK': Actual Time">unknown</RESULT>
+ <RESULT name="Total Thermal Power Dissipation">unknown</RESULT>
+ <RESULT name="Clock Setup: 'altpll0:inst7|altpll:altpll_component|_clk1': Actual Time">2.530 ns</RESULT>
+ <RESULT name="Clock Period: Geometric Mean">5.35 ns</RESULT>
+ <RESULT name="Clock Setup: 'GLB1': Failed Paths">0</RESULT>
+ <RESULT name="Clock Setup: 'GLB1': Slack">8.691 ns</RESULT>
+ <RESULT name="Clock Setup: 'altpll0:inst7|altpll:altpll_component|_clk1': Failed Paths">0</RESULT>
+</RESULTS>
+

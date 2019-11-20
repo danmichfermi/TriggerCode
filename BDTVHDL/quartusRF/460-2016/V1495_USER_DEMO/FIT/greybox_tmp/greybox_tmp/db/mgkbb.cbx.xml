@@ -1,0 +1,6 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="mgkbb">
+		<CBX_INST_ENTRY INSTANCE_NAME="|mgkbb|lpm_compare:mgl_prim1" CBX_FILE_NAME="cmpr_6bg.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

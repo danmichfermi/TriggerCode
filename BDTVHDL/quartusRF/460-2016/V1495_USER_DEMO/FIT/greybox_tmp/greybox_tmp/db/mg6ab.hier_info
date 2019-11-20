@@ -1,0 +1,50 @@
+|mg6ab
+AeB <= lpm_compare:mgl_prim1.AeB
+dataa[0] => dataa[0].IN1
+dataa[1] => dataa[1].IN1
+dataa[2] => dataa[2].IN1
+dataa[3] => dataa[3].IN1
+dataa[4] => dataa[4].IN1
+datab[0] => datab[0].IN1
+datab[1] => datab[1].IN1
+datab[2] => datab[2].IN1
+datab[3] => datab[3].IN1
+datab[4] => datab[4].IN1
+
+
+|mg6ab|lpm_compare:mgl_prim1
+dataa[0] => cmpr_o9g:auto_generated.dataa[0]
+dataa[1] => cmpr_o9g:auto_generated.dataa[1]
+dataa[2] => cmpr_o9g:auto_generated.dataa[2]
+dataa[3] => cmpr_o9g:auto_generated.dataa[3]
+dataa[4] => cmpr_o9g:auto_generated.dataa[4]
+datab[0] => cmpr_o9g:auto_generated.datab[0]
+datab[1] => cmpr_o9g:auto_generated.datab[1]
+datab[2] => cmpr_o9g:auto_generated.datab[2]
+datab[3] => cmpr_o9g:auto_generated.datab[3]
+datab[4] => cmpr_o9g:auto_generated.datab[4]
+clock => ~NO_FANOUT~
+aclr => ~NO_FANOUT~
+clken => ~NO_FANOUT~
+alb <= <GND>
+aeb <= cmpr_o9g:auto_generated.aeb
+agb <= <GND>
+aleb <= <GND>
+aneb <= <GND>
+ageb <= <GND>
+
+
+|mg6ab|lpm_compare:mgl_prim1|cmpr_o9g:auto_generated
+aeb <= aeb_result_wire[0].DB_MAX_OUTPUT_PORT_TYPE
+dataa[0] => data_wire[0].IN0
+dataa[1] => data_wire[0].IN0
+dataa[2] => data_wire[1].IN0
+dataa[3] => data_wire[1].IN0
+dataa[4] => data_wire[2].IN0
+datab[0] => data_wire[0].IN1
+datab[1] => data_wire[0].IN1
+datab[2] => data_wire[1].IN1
+datab[3] => data_wire[1].IN1
+datab[4] => data_wire[2].IN1
+
+

@@ -1,0 +1,43 @@
+|mgbt9
+data[0] => data[0].IN1
+data[1] => data[1].IN1
+data[2] => data[2].IN1
+data[3] => data[3].IN1
+result[0] <= lpm_mux:mgl_prim1.result
+sel[0] => sel[0].IN1
+sel[1] => sel[1].IN1
+
+
+|mgbt9|lpm_mux:mgl_prim1
+data[0][0] => mux_6fc:auto_generated.data[0]
+data[1][0] => mux_6fc:auto_generated.data[1]
+data[2][0] => mux_6fc:auto_generated.data[2]
+data[3][0] => mux_6fc:auto_generated.data[3]
+sel[0] => mux_6fc:auto_generated.sel[0]
+sel[1] => mux_6fc:auto_generated.sel[1]
+clock => ~NO_FANOUT~
+aclr => ~NO_FANOUT~
+clken => ~NO_FANOUT~
+result[0] <= mux_6fc:auto_generated.result[0]
+
+
+|mgbt9|lpm_mux:mgl_prim1|mux_6fc:auto_generated
+data[0] => _.IN0
+data[0] => _.IN0
+data[1] => _.IN0
+data[2] => _.IN1
+data[2] => _.IN1
+data[3] => _.IN0
+result[0] <= result_node[0].DB_MAX_OUTPUT_PORT_TYPE
+sel[0] => _.IN1
+sel[0] => _.IN0
+sel[0] => _.IN0
+sel[0] => _.IN0
+sel[0] => _.IN0
+sel[0] => _.IN0
+sel[1] => _.IN0
+sel[1] => _.IN0
+sel[1] => _.IN0
+sel[1] => _.IN0
+
+

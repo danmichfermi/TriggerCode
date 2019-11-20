@@ -1,0 +1,640 @@
+        if(oVar2S199(0)='1' OR oVar2S200(0)='1' OR oVar2S201(0)='1' )then
+          ADDM4K3S8(7)<='1';
+          else
+          ADDM4K3S8(7)<='0';
+          end if;
+        if(oVar2S329(0)='1' OR oVar2S330(0)='1' OR oVar2S331(0)='1' )then
+          ADDM4K3S8(6)<='1';
+          else
+          ADDM4K3S8(6)<='0';
+          end if;
+        if(oVar2S196(0)='1' OR oVar2S197(0)='1' OR oVar2S198(0)='1' )then
+          ADDM4K3S8(5)<='1';
+          else
+          ADDM4K3S8(5)<='0';
+          end if;
+        if(oVar2S173(0)='1' OR oVar2S174(0)='1' OR oVar2S175(0)='1' )then
+          ADDM4K3S8(4)<='1';
+          else
+          ADDM4K3S8(4)<='0';
+          end if;
+        if(oVar2S127(0)='1' OR oVar2S128(0)='1' )then
+          ADDM4K3S8(3)<='1';
+          else
+          ADDM4K3S8(3)<='0';
+          end if;
+        if(oVar2S150(0)='1' OR oVar2S151(0)='1' )then
+          ADDM4K3S8(2)<='1';
+          else
+          ADDM4K3S8(2)<='0';
+          end if;
+        if(oVar2S141(0)='1' OR oVar2S142(0)='1' )then
+          ADDM4K3S8(1)<='1';
+          else
+          ADDM4K3S8(1)<='0';
+          end if;
+        if(oVar2S81(0)='1' OR oVar2S82(0)='1' )then
+          ADDM4K3S8(0)<='1';
+          else
+          ADDM4K3S8(0)<='0';
+          end if;
+        if(oVar2S147(0)='1' OR oVar2S148(0)='1' )then
+          ADDM4K3S9(7)<='1';
+          else
+          ADDM4K3S9(7)<='0';
+          end if;
+        if(oVar2S68(0)='1' OR oVar2S69(0)='1' )then
+          ADDM4K3S9(6)<='1';
+          else
+          ADDM4K3S9(6)<='0';
+          end if;
+        if(oVar2S159(0)='1' OR oVar2S160(0)='1' )then
+          ADDM4K3S9(5)<='1';
+          else
+          ADDM4K3S9(5)<='0';
+          end if;
+        if(oVar2S135(0)='1' OR oVar2S136(0)='1' OR oVar2S137(0)='1' )then
+          ADDM4K3S9(4)<='1';
+          else
+          ADDM4K3S9(4)<='0';
+          end if;
+        if(oVar2S79(0)='1' OR oVar2S80(0)='1' )then
+          ADDM4K3S9(3)<='1';
+          else
+          ADDM4K3S9(3)<='0';
+          end if;
+        if(oVar2S156(0)='1' OR oVar2S157(0)='1' OR oVar2S158(0)='1' )then
+          ADDM4K3S9(2)<='1';
+          else
+          ADDM4K3S9(2)<='0';
+          end if;
+        if(oVar2S71(0)='1' OR oVar2S72(0)='1' )then
+          ADDM4K3S9(1)<='1';
+          else
+          ADDM4K3S9(1)<='0';
+          end if;
+        if(oVar2S168(0)='1' OR oVar2S169(0)='1' OR oVar2S170(0)='1' )then
+          ADDM4K3S9(0)<='1';
+          else
+          ADDM4K3S9(0)<='0';
+          end if;
+        if(oVar2S112(0)='1' OR oVar2S113(0)='1' OR oVar2S114(0)='1' )then
+          ADDM4K3S12(7)<='1';
+          else
+          ADDM4K3S12(7)<='0';
+          end if;
+        if(oVar2S60(0)='1' OR oVar2S61(0)='1' OR oVar2S62(0)='1' )then
+          ADDM4K3S12(6)<='1';
+          else
+          ADDM4K3S12(6)<='0';
+          end if;
+        if(oVar2S109(0)='1' OR oVar2S110(0)='1' OR oVar2S111(0)='1' )then
+          ADDM4K3S12(5)<='1';
+          else
+          ADDM4K3S12(5)<='0';
+          end if;
+        if(oVar2S100(0)='1' OR oVar2S101(0)='1' )then
+          ADDM4K3S12(4)<='1';
+          else
+          ADDM4K3S12(4)<='0';
+          end if;
+        if(oVar2S106(0)='1' OR oVar2S107(0)='1' OR oVar2S108(0)='1' )then
+          ADDM4K3S12(3)<='1';
+          else
+          ADDM4K3S12(3)<='0';
+          end if;
+        if(oVar2S83(0)='1' OR oVar2S84(0)='1' OR oVar2S85(0)='1' )then
+          ADDM4K3S12(2)<='1';
+          else
+          ADDM4K3S12(2)<='0';
+          end if;
+        if(oVar2S90(0)='1' OR oVar2S91(0)='1' OR oVar2S92(0)='1' )then
+          ADDM4K3S12(1)<='1';
+          else
+          ADDM4K3S12(1)<='0';
+          end if;
+        if(oVar2S63(0)='1' OR oVar2S64(0)='1' )then
+          ADDM4K3S12(0)<='1';
+          else
+          ADDM4K3S12(0)<='0';
+          end if;
+        if(oVar2S23(0)='1' OR oVar2S24(0)='1' )then
+          ADDM4K3S13(7)<='1';
+          else
+          ADDM4K3S13(7)<='0';
+          end if;
+        if(oVar2S103(0)='1' OR oVar2S104(0)='1' OR oVar2S105(0)='1' )then
+          ADDM4K3S13(6)<='1';
+          else
+          ADDM4K3S13(6)<='0';
+          end if;
+        if(oVar2S74(0)='1' OR oVar2S75(0)='1' OR oVar2S76(0)='1' )then
+          ADDM4K3S13(5)<='1';
+          else
+          ADDM4K3S13(5)<='0';
+          end if;
+        if(oVar2S57(0)='1' OR oVar2S58(0)='1' OR oVar2S59(0)='1' )then
+          ADDM4K3S13(4)<='1';
+          else
+          ADDM4K3S13(4)<='0';
+          end if;
+        if(oVar2S42(0)='1' OR oVar2S43(0)='1' )then
+          ADDM4K3S13(3)<='1';
+          else
+          ADDM4K3S13(3)<='0';
+          end if;
+        if(oVar2S54(0)='1' OR oVar2S55(0)='1' OR oVar2S56(0)='1' )then
+          ADDM4K3S13(2)<='1';
+          else
+          ADDM4K3S13(2)<='0';
+          end if;
+        if(oVar2S96(0)='1' OR oVar2S97(0)='1' OR oVar2S98(0)='1' )then
+          ADDM4K3S13(1)<='1';
+          else
+          ADDM4K3S13(1)<='0';
+          end if;
+        if(oVar2S25(0)='1' OR oVar2S26(0)='1' OR oVar2S27(0)='1' )then
+          ADDM4K3S13(0)<='1';
+          else
+          ADDM4K3S13(0)<='0';
+          end if;
+        if(oVar2S118(0)='1' OR oVar2S119(0)='1' )then
+          ADDM4K3S10(7)<='1';
+          else
+          ADDM4K3S10(7)<='0';
+          end if;
+        if(oVar2S153(0)='1' OR oVar2S154(0)='1' OR oVar2S155(0)='1' )then
+          ADDM4K3S10(6)<='1';
+          else
+          ADDM4K3S10(6)<='0';
+          end if;
+        if(oVar2S144(0)='1' OR oVar2S145(0)='1' OR oVar2S146(0)='1' )then
+          ADDM4K3S10(5)<='1';
+          else
+          ADDM4K3S10(5)<='0';
+          end if;
+        if(oVar2S176(0)='1' OR oVar2S177(0)='1' OR oVar2S178(0)='1' )then
+          ADDM4K3S10(4)<='1';
+          else
+          ADDM4K3S10(4)<='0';
+          end if;
+        if(oVar2S171(0)='1' OR oVar2S172(0)='1' )then
+          ADDM4K3S10(3)<='1';
+          else
+          ADDM4K3S10(3)<='0';
+          end if;
+        if(oVar2S182(0)='1' OR oVar2S183(0)='1' )then
+          ADDM4K3S10(2)<='1';
+          else
+          ADDM4K3S10(2)<='0';
+          end if;
+        if(oVar2S66(0)='1' OR oVar2S67(0)='1' )then
+          ADDM4K3S10(1)<='1';
+          else
+          ADDM4K3S10(1)<='0';
+          end if;
+        if(oVar2S45(0)='1' OR oVar2S46(0)='1' )then
+          ADDM4K3S10(0)<='1';
+          else
+          ADDM4K3S10(0)<='0';
+          end if;
+        if(oVar2S179(0)='1' OR oVar2S180(0)='1' OR oVar2S181(0)='1' )then
+          ADDM4K3S11(7)<='1';
+          else
+          ADDM4K3S11(7)<='0';
+          end if;
+        if(oVar2S124(0)='1' OR oVar2S125(0)='1' OR oVar2S126(0)='1' )then
+          ADDM4K3S11(6)<='1';
+          else
+          ADDM4K3S11(6)<='0';
+          end if;
+        if(oVar2S129(0)='1' OR oVar2S130(0)='1' )then
+          ADDM4K3S11(5)<='1';
+          else
+          ADDM4K3S11(5)<='0';
+          end if;
+        if(oVar2S121(0)='1' OR oVar2S122(0)='1' OR oVar2S123(0)='1' )then
+          ADDM4K3S11(4)<='1';
+          else
+          ADDM4K3S11(4)<='0';
+          end if;
+        if(oVar2S77(0)='1' OR oVar2S78(0)='1' )then
+          ADDM4K3S11(3)<='1';
+          else
+          ADDM4K3S11(3)<='0';
+          end if;
+        if(oVar2S93(0)='1' OR oVar2S94(0)='1' )then
+          ADDM4K3S11(2)<='1';
+          else
+          ADDM4K3S11(2)<='0';
+          end if;
+        if(oVar2S115(0)='1' OR oVar2S116(0)='1' OR oVar2S117(0)='1' )then
+          ADDM4K3S11(1)<='1';
+          else
+          ADDM4K3S11(1)<='0';
+          end if;
+        if(oVar2S132(0)='1' OR oVar2S133(0)='1' OR oVar2S134(0)='1' )then
+          ADDM4K3S11(0)<='1';
+          else
+          ADDM4K3S11(0)<='0';
+          end if;
+        if(oVar2S86(0)='1' OR oVar2S87(0)='1' OR oVar2S88(0)='1' )then
+          ADDM4K3S14(7)<='1';
+          else
+          ADDM4K3S14(7)<='0';
+          end if;
+        if(oVar2S31(0)='1' OR oVar2S32(0)='1' )then
+          ADDM4K3S14(6)<='1';
+          else
+          ADDM4K3S14(6)<='0';
+          end if;
+        if(oVar2S48(0)='1' OR oVar2S49(0)='1' OR oVar2S50(0)='1' )then
+          ADDM4K3S14(5)<='1';
+          else
+          ADDM4K3S14(5)<='0';
+          end if;
+        if(oVar2S51(0)='1' OR oVar2S52(0)='1' OR oVar2S53(0)='1' )then
+          ADDM4K3S14(4)<='1';
+          else
+          ADDM4K3S14(4)<='0';
+          end if;
+        if(oVar2S36(0)='1' OR oVar2S37(0)='1' OR oVar2S38(0)='1' )then
+          ADDM4K3S14(3)<='1';
+          else
+          ADDM4K3S14(3)<='0';
+          end if;
+        if(oVar2S39(0)='1' OR oVar2S40(0)='1' OR oVar2S41(0)='1' )then
+          ADDM4K3S14(2)<='1';
+          else
+          ADDM4K3S14(2)<='0';
+          end if;
+        if(oVar2S20(0)='1' OR oVar2S21(0)='1' )then
+          ADDM4K3S14(1)<='1';
+          else
+          ADDM4K3S14(1)<='0';
+          end if;
+        if(oVar2S28(0)='1' OR oVar2S29(0)='1' OR oVar2S30(0)='1' )then
+          ADDM4K3S14(0)<='1';
+          else
+          ADDM4K3S14(0)<='0';
+          end if;
+        if(oVar2S18(0)='1' OR oVar2S19(0)='1' )then
+          ADDM4K3S15(7)<='1';
+          else
+          ADDM4K3S15(7)<='0';
+          end if;
+        if(oVar2S33(0)='1' OR oVar2S34(0)='1' OR oVar2S35(0)='1' )then
+          ADDM4K3S15(6)<='1';
+          else
+          ADDM4K3S15(6)<='0';
+          end if;
+        if(oVar2S15(0)='1' OR oVar2S16(0)='1' OR oVar2S17(0)='1' )then
+          ADDM4K3S15(5)<='1';
+          else
+          ADDM4K3S15(5)<='0';
+          end if;
+        if(oVar2S12(0)='1' OR oVar2S13(0)='1' )then
+          ADDM4K3S15(4)<='1';
+          else
+          ADDM4K3S15(4)<='0';
+          end if;
+        if(oVar2S9(0)='1' OR oVar2S10(0)='1' )then
+          ADDM4K3S15(3)<='1';
+          else
+          ADDM4K3S15(3)<='0';
+          end if;
+        if(oVar2S6(0)='1' OR oVar2S7(0)='1' OR oVar2S8(0)='1' )then
+          ADDM4K3S15(2)<='1';
+          else
+          ADDM4K3S15(2)<='0';
+          end if;
+        if(oVar2S3(0)='1' OR oVar2S4(0)='1' )then
+          ADDM4K3S15(1)<='1';
+          else
+          ADDM4K3S15(1)<='0';
+          end if;
+        if(oVar2S0(0)='1' OR oVar2S1(0)='1' OR oVar2S2(0)='1' )then
+          ADDM4K3S15(0)<='1';
+          else
+          ADDM4K3S15(0)<='0';
+          end if;
+        if(oVar2S185(0)='1' OR oVar2S186(0)='1' )then
+          ADDM4K3S2(7)<='1';
+          else
+          ADDM4K3S2(7)<='0';
+          end if;
+        if(oVar2S363(0)='1' OR oVar2S364(0)='1' )then
+          ADDM4K3S2(6)<='1';
+          else
+          ADDM4K3S2(6)<='0';
+          end if;
+        if(oVar2S209(0)='1' OR oVar2S210(0)='1' )then
+          ADDM4K3S2(5)<='1';
+          else
+          ADDM4K3S2(5)<='0';
+          end if;
+        if(oVar2S267(0)='1' OR oVar2S268(0)='1' OR oVar2S269(0)='1' )then
+          ADDM4K3S2(4)<='1';
+          else
+          ADDM4K3S2(4)<='0';
+          end if;
+        if(oVar2S291(0)='1' OR oVar2S292(0)='1' OR oVar2S293(0)='1' )then
+          ADDM4K3S2(3)<='1';
+          else
+          ADDM4K3S2(3)<='0';
+          end if;
+        if(oVar2S288(0)='1' OR oVar2S289(0)='1' OR oVar2S290(0)='1' )then
+          ADDM4K3S2(2)<='1';
+          else
+          ADDM4K3S2(2)<='0';
+          end if;
+        if(oVar2S270(0)='1' OR oVar2S271(0)='1' OR oVar2S272(0)='1' )then
+          ADDM4K3S2(1)<='1';
+          else
+          ADDM4K3S2(1)<='0';
+          end if;
+        if(oVar2S285(0)='1' OR oVar2S286(0)='1' )then
+          ADDM4K3S2(0)<='1';
+          else
+          ADDM4K3S2(0)<='0';
+          end if;
+        if(oVar2S300(0)='1' OR oVar2S301(0)='1' )then
+          ADDM4K3S3(7)<='1';
+          else
+          ADDM4K3S3(7)<='0';
+          end if;
+        if(oVar2S372(0)='1' OR oVar2S373(0)='1' OR oVar2S374(0)='1' )then
+          ADDM4K3S3(6)<='1';
+          else
+          ADDM4K3S3(6)<='0';
+          end if;
+        if(oVar2S294(0)='1' OR oVar2S295(0)='1' )then
+          ADDM4K3S3(5)<='1';
+          else
+          ADDM4K3S3(5)<='0';
+          end if;
+        if(oVar2S333(0)='1' OR oVar2S334(0)='1' OR oVar2S335(0)='1' )then
+          ADDM4K3S3(4)<='1';
+          else
+          ADDM4K3S3(4)<='0';
+          end if;
+        if(oVar2S224(0)='1' OR oVar2S225(0)='1' )then
+          ADDM4K3S3(3)<='1';
+          else
+          ADDM4K3S3(3)<='0';
+          end if;
+        if(oVar2S345(0)='1' OR oVar2S346(0)='1' )then
+          ADDM4K3S3(2)<='1';
+          else
+          ADDM4K3S3(2)<='0';
+          end if;
+        if(oVar2S351(0)='1' OR oVar2S352(0)='1' OR oVar2S353(0)='1' )then
+          ADDM4K3S3(1)<='1';
+          else
+          ADDM4K3S3(1)<='0';
+          end if;
+        if(oVar2S348(0)='1' OR oVar2S349(0)='1' OR oVar2S350(0)='1' )then
+          ADDM4K3S3(0)<='1';
+          else
+          ADDM4K3S3(0)<='0';
+          end if;
+        if(oVar2S297(0)='1' OR oVar2S298(0)='1' )then
+          ADDM4K3S4(7)<='1';
+          else
+          ADDM4K3S4(7)<='0';
+          end if;
+        if(oVar2S255(0)='1' OR oVar2S256(0)='1' OR oVar2S257(0)='1' )then
+          ADDM4K3S4(6)<='1';
+          else
+          ADDM4K3S4(6)<='0';
+          end if;
+        if(oVar2S165(0)='1' OR oVar2S166(0)='1' )then
+          ADDM4K3S4(5)<='1';
+          else
+          ADDM4K3S4(5)<='0';
+          end if;
+        if(oVar2S239(0)='1' OR oVar2S240(0)='1' )then
+          ADDM4K3S4(4)<='1';
+          else
+          ADDM4K3S4(4)<='0';
+          end if;
+        if(oVar2S276(0)='1' OR oVar2S277(0)='1' OR oVar2S278(0)='1' )then
+          ADDM4K3S4(3)<='1';
+          else
+          ADDM4K3S4(3)<='0';
+          end if;
+        if(oVar2S317(0)='1' OR oVar2S318(0)='1' )then
+          ADDM4K3S4(2)<='1';
+          else
+          ADDM4K3S4(2)<='0';
+          end if;
+        if(oVar2S187(0)='1' OR oVar2S188(0)='1' )then
+          ADDM4K3S4(1)<='1';
+          else
+          ADDM4K3S4(1)<='0';
+          end if;
+        if(oVar2S359(0)='1' OR oVar2S360(0)='1' OR oVar2S361(0)='1' )then
+          ADDM4K3S4(0)<='1';
+          else
+          ADDM4K3S4(0)<='0';
+          end if;
+        if(oVar2S190(0)='1' OR oVar2S191(0)='1' OR oVar2S192(0)='1' )then
+          ADDM4K3S5(7)<='1';
+          else
+          ADDM4K3S5(7)<='0';
+          end if;
+        if(oVar2S342(0)='1' OR oVar2S343(0)='1' OR oVar2S344(0)='1' )then
+          ADDM4K3S5(6)<='1';
+          else
+          ADDM4K3S5(6)<='0';
+          end if;
+        if(oVar2S282(0)='1' OR oVar2S283(0)='1' )then
+          ADDM4K3S5(5)<='1';
+          else
+          ADDM4K3S5(5)<='0';
+          end if;
+        if(oVar2S314(0)='1' OR oVar2S315(0)='1' OR oVar2S316(0)='1' )then
+          ADDM4K3S5(4)<='1';
+          else
+          ADDM4K3S5(4)<='0';
+          end if;
+        if(oVar2S326(0)='1' OR oVar2S327(0)='1' OR oVar2S328(0)='1' )then
+          ADDM4K3S5(3)<='1';
+          else
+          ADDM4K3S5(3)<='0';
+          end if;
+        if(oVar2S230(0)='1' OR oVar2S231(0)='1' )then
+          ADDM4K3S5(2)<='1';
+          else
+          ADDM4K3S5(2)<='0';
+          end if;
+        if(oVar2S227(0)='1' OR oVar2S228(0)='1' OR oVar2S229(0)='1' )then
+          ADDM4K3S5(1)<='1';
+          else
+          ADDM4K3S5(1)<='0';
+          end if;
+        if(oVar2S236(0)='1' OR oVar2S237(0)='1' OR oVar2S238(0)='1' )then
+          ADDM4K3S5(0)<='1';
+          else
+          ADDM4K3S5(0)<='0';
+          end if;
+        if(oVar2S252(0)='1' OR oVar2S253(0)='1' OR oVar2S254(0)='1' )then
+          ADDM4K3S6(7)<='1';
+          else
+          ADDM4K3S6(7)<='0';
+          end if;
+        if(oVar2S273(0)='1' OR oVar2S274(0)='1' OR oVar2S275(0)='1' )then
+          ADDM4K3S6(6)<='1';
+          else
+          ADDM4K3S6(6)<='0';
+          end if;
+        if(oVar2S279(0)='1' OR oVar2S280(0)='1' OR oVar2S281(0)='1' )then
+          ADDM4K3S6(5)<='1';
+          else
+          ADDM4K3S6(5)<='0';
+          end if;
+        if(oVar2S339(0)='1' OR oVar2S340(0)='1' OR oVar2S341(0)='1' )then
+          ADDM4K3S6(4)<='1';
+          else
+          ADDM4K3S6(4)<='0';
+          end if;
+        if(oVar2S206(0)='1' OR oVar2S207(0)='1' OR oVar2S208(0)='1' )then
+          ADDM4K3S6(3)<='1';
+          else
+          ADDM4K3S6(3)<='0';
+          end if;
+        if(oVar2S336(0)='1' OR oVar2S337(0)='1' OR oVar2S338(0)='1' )then
+          ADDM4K3S6(2)<='1';
+          else
+          ADDM4K3S6(2)<='0';
+          end if;
+        if(oVar2S233(0)='1' OR oVar2S234(0)='1' OR oVar2S235(0)='1' )then
+          ADDM4K3S6(1)<='1';
+          else
+          ADDM4K3S6(1)<='0';
+          end if;
+        if(oVar2S218(0)='1' OR oVar2S219(0)='1' OR oVar2S220(0)='1' )then
+          ADDM4K3S6(0)<='1';
+          else
+          ADDM4K3S6(0)<='0';
+          end if;
+        if(oVar2S249(0)='1' OR oVar2S250(0)='1' OR oVar2S251(0)='1' )then
+          ADDM4K3S7(7)<='1';
+          else
+          ADDM4K3S7(7)<='0';
+          end if;
+        if(oVar2S162(0)='1' OR oVar2S163(0)='1' )then
+          ADDM4K3S7(6)<='1';
+          else
+          ADDM4K3S7(6)<='0';
+          end if;
+        if(oVar2S243(0)='1' OR oVar2S244(0)='1' OR oVar2S245(0)='1' )then
+          ADDM4K3S7(5)<='1';
+          else
+          ADDM4K3S7(5)<='0';
+          end if;
+        if(oVar2S221(0)='1' OR oVar2S222(0)='1' OR oVar2S223(0)='1' )then
+          ADDM4K3S7(4)<='1';
+          else
+          ADDM4K3S7(4)<='0';
+          end if;
+        if(oVar2S138(0)='1' OR oVar2S139(0)='1' )then
+          ADDM4K3S7(3)<='1';
+          else
+          ADDM4K3S7(3)<='0';
+          end if;
+        if(oVar2S203(0)='1' OR oVar2S204(0)='1' )then
+          ADDM4K3S7(2)<='1';
+          else
+          ADDM4K3S7(2)<='0';
+          end if;
+        if(oVar2S246(0)='1' OR oVar2S247(0)='1' OR oVar2S248(0)='1' )then
+          ADDM4K3S7(1)<='1';
+          else
+          ADDM4K3S7(1)<='0';
+          end if;
+        if(oVar2S193(0)='1' OR oVar2S194(0)='1' )then
+          ADDM4K3S7(0)<='1';
+          else
+          ADDM4K3S7(0)<='0';
+          end if;
+        if(oVar2S354(0)='1' OR oVar2S355(0)='1' OR oVar2S356(0)='1' )then
+          ADDM4K3S0(7)<='1';
+          else
+          ADDM4K3S0(7)<='0';
+          end if;
+        if(oVar2S264(0)='1' OR oVar2S265(0)='1' )then
+          ADDM4K3S0(6)<='1';
+          else
+          ADDM4K3S0(6)<='0';
+          end if;
+        if(oVar2S215(0)='1' OR oVar2S216(0)='1' )then
+          ADDM4K3S0(5)<='1';
+          else
+          ADDM4K3S0(5)<='0';
+          end if;
+        if(oVar2S303(0)='1' OR oVar2S304(0)='1' )then
+          ADDM4K3S0(4)<='1';
+          else
+          ADDM4K3S0(4)<='0';
+          end if;
+        if(oVar2S258(0)='1' OR oVar2S259(0)='1' OR oVar2S260(0)='1' )then
+          ADDM4K3S0(3)<='1';
+          else
+          ADDM4K3S0(3)<='0';
+          end if;
+        if(oVar2S308(0)='1' OR oVar2S309(0)='1' )then
+          ADDM4K3S0(2)<='1';
+          else
+          ADDM4K3S0(2)<='0';
+          end if;
+        if(oVar2S357(0)='1' OR oVar2S358(0)='1' )then
+          ADDM4K3S0(1)<='1';
+          else
+          ADDM4K3S0(1)<='0';
+          end if;
+        if(oVar2S305(0)='1' OR oVar2S306(0)='1' )then
+          ADDM4K3S0(0)<='1';
+          else
+          ADDM4K3S0(0)<='0';
+          end if;
+        if(oVar2S212(0)='1' OR oVar2S213(0)='1' )then
+          ADDM4K3S1(7)<='1';
+          else
+          ADDM4K3S1(7)<='0';
+          end if;
+        if(oVar2S320(0)='1' OR oVar2S321(0)='1' )then
+          ADDM4K3S1(6)<='1';
+          else
+          ADDM4K3S1(6)<='0';
+          end if;
+        if(oVar2S241(0)='1' OR oVar2S242(0)='1' )then
+          ADDM4K3S1(5)<='1';
+          else
+          ADDM4K3S1(5)<='0';
+          end if;
+        if(oVar2S323(0)='1' OR oVar2S324(0)='1' )then
+          ADDM4K3S1(4)<='1';
+          else
+          ADDM4K3S1(4)<='0';
+          end if;
+        if(oVar2S369(0)='1' OR oVar2S370(0)='1' OR oVar2S371(0)='1' )then
+          ADDM4K3S1(3)<='1';
+          else
+          ADDM4K3S1(3)<='0';
+          end if;
+        if(oVar2S261(0)='1' OR oVar2S262(0)='1' )then
+          ADDM4K3S1(2)<='1';
+          else
+          ADDM4K3S1(2)<='0';
+          end if;
+        if(oVar2S366(0)='1' OR oVar2S367(0)='1' OR oVar2S368(0)='1' )then
+          ADDM4K3S1(1)<='1';
+          else
+          ADDM4K3S1(1)<='0';
+          end if;
+        if(oVar2S311(0)='1' OR oVar2S312(0)='1' OR oVar2S313(0)='1' )then
+          ADDM4K3S1(0)<='1';
+          else
+          ADDM4K3S1(0)<='0';
+          end if;

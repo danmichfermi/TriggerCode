@@ -1,0 +1,12 @@
+Fitter Status : Successful - Thu Jul 22 18:17:50 2010
+Quartus II Version : 9.1 Build 222 10/21/2009 SJ Full Version
+Revision Name : v1495usr_demo
+Top-level Entity Name : v1495usr_demo
+Family : Cyclone
+Device : EP1C20F400C6
+Timing Models : Final
+Total logic elements : 938 / 20,060 ( 5 % )
+Total pins : 275 / 301 ( 91 % )
+Total virtual pins : 0
+Total memory bits : 0 / 294,912 ( 0 % )
+Total PLLs : 0 / 2 ( 0 % )

@@ -1,0 +1,35 @@
+|mg3te
+AeB <= lpm_compare:mgl_prim1.AeB
+dataa[0] => dataa[0].IN1
+dataa[1] => dataa[1].IN1
+dataa[2] => dataa[2].IN1
+datab[0] => ~NO_FANOUT~
+datab[1] => ~NO_FANOUT~
+datab[2] => ~NO_FANOUT~
+
+
+|mg3te|lpm_compare:mgl_prim1
+dataa[0] => cmpr_1fi:auto_generated.dataa[0]
+dataa[1] => cmpr_1fi:auto_generated.dataa[1]
+dataa[2] => cmpr_1fi:auto_generated.dataa[2]
+datab[0] => ~NO_FANOUT~
+datab[1] => ~NO_FANOUT~
+datab[2] => ~NO_FANOUT~
+clock => ~NO_FANOUT~
+aclr => ~NO_FANOUT~
+clken => ~NO_FANOUT~
+alb <= <GND>
+aeb <= cmpr_1fi:auto_generated.aeb
+agb <= <GND>
+aleb <= <GND>
+aneb <= <GND>
+ageb <= <GND>
+
+
+|mg3te|lpm_compare:mgl_prim1|cmpr_1fi:auto_generated
+aeb <= aeb_result_wire[0].DB_MAX_OUTPUT_PORT_TYPE
+dataa[0] => data_wire[0].IN0
+dataa[1] => data_wire[0].IN0
+dataa[2] => data_wire[1].IN0
+
+

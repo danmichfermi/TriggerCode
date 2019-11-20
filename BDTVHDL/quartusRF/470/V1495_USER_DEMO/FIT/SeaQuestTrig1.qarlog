@@ -1,0 +1,110 @@
+Quartus II Archive log --	C:/Users/shshiu/Desktop/temp/from Mr. wu/081810/V1495_USER_DEMO/FIT/SeaQuestTrig1.qarlog
+
+Archive:	C:/Users/shshiu/Desktop/temp/from Mr. wu/081810/V1495_USER_DEMO/FIT/SeaQuestTrig1.qar
+Date:		Thu Aug 19 11:30:24 2010
+Quartus II		9.1 Build 222 10/21/2009 SJ Web Edition
+
+	=========== Files Selected: ===========
+C:/Users/shshiu/Desktop/temp/from Mr. wu/081810/V1495_USER_DEMO/FIT/ChTK4nsOut.bdf
+C:/Users/shshiu/Desktop/temp/from Mr. wu/081810/V1495_USER_DEMO/FIT/DelayMem1.mif
+C:/Users/shshiu/Desktop/temp/from Mr. wu/081810/V1495_USER_DEMO/FIT/GRP32ch.bdf
+C:/Users/shshiu/Desktop/temp/from Mr. wu/081810/V1495_USER_DEMO/FIT/GRP4ch.bdf
+C:/Users/shshiu/Desktop/temp/from Mr. wu/081810/V1495_USER_DEMO/FIT/OutPipe1a.bdf
+C:/Users/shshiu/Desktop/temp/from Mr. wu/081810/V1495_USER_DEMO/FIT/Pulser1.bdf
+C:/Users/shshiu/Desktop/temp/from Mr. wu/081810/V1495_USER_DEMO/FIT/SeaQuestTrig1.bdf
+C:/Users/shshiu/Desktop/temp/from Mr. wu/081810/V1495_USER_DEMO/FIT/SeaQuestTrig1.qpf
+C:/Users/shshiu/Desktop/temp/from Mr. wu/081810/V1495_USER_DEMO/FIT/SeaQuestTrig1.qsf
+C:/Users/shshiu/Desktop/temp/from Mr. wu/081810/V1495_USER_DEMO/FIT/Smaple4sh16a.bdf
+C:/Users/shshiu/Desktop/temp/from Mr. wu/081810/V1495_USER_DEMO/FIT/Timing1.bdf
+C:/Users/shshiu/Desktop/temp/from Mr. wu/081810/V1495_USER_DEMO/FIT/altpll0.bsf
+C:/Users/shshiu/Desktop/temp/from Mr. wu/081810/V1495_USER_DEMO/FIT/altpll0.inc
+C:/Users/shshiu/Desktop/temp/from Mr. wu/081810/V1495_USER_DEMO/FIT/altpll0.ppf
+C:/Users/shshiu/Desktop/temp/from Mr. wu/081810/V1495_USER_DEMO/FIT/altpll0.qip
+C:/Users/shshiu/Desktop/temp/from Mr. wu/081810/V1495_USER_DEMO/FIT/altpll0.tdf
+C:/Users/shshiu/Desktop/temp/from Mr. wu/081810/V1495_USER_DEMO/FIT/coin_logic.vhd
+C:/Users/shshiu/Desktop/temp/from Mr. wu/081810/V1495_USER_DEMO/FIT/coin_reference.vhd
+C:/Users/shshiu/Desktop/temp/from Mr. wu/081810/V1495_USER_DEMO/FIT/lpm_add_sub0.bsf
+C:/Users/shshiu/Desktop/temp/from Mr. wu/081810/V1495_USER_DEMO/FIT/lpm_add_sub0.inc
+C:/Users/shshiu/Desktop/temp/from Mr. wu/081810/V1495_USER_DEMO/FIT/lpm_add_sub0.qip
+C:/Users/shshiu/Desktop/temp/from Mr. wu/081810/V1495_USER_DEMO/FIT/lpm_add_sub0.tdf
+C:/Users/shshiu/Desktop/temp/from Mr. wu/081810/V1495_USER_DEMO/FIT/lpm_add_sub1.bsf
+C:/Users/shshiu/Desktop/temp/from Mr. wu/081810/V1495_USER_DEMO/FIT/lpm_add_sub1.inc
+C:/Users/shshiu/Desktop/temp/from Mr. wu/081810/V1495_USER_DEMO/FIT/lpm_add_sub1.qip
+C:/Users/shshiu/Desktop/temp/from Mr. wu/081810/V1495_USER_DEMO/FIT/lpm_add_sub1.tdf
+C:/Users/shshiu/Desktop/temp/from Mr. wu/081810/V1495_USER_DEMO/FIT/lpm_add_sub2.bsf
+C:/Users/shshiu/Desktop/temp/from Mr. wu/081810/V1495_USER_DEMO/FIT/lpm_add_sub2.inc
+C:/Users/shshiu/Desktop/temp/from Mr. wu/081810/V1495_USER_DEMO/FIT/lpm_add_sub2.qip
+C:/Users/shshiu/Desktop/temp/from Mr. wu/081810/V1495_USER_DEMO/FIT/lpm_add_sub2.tdf
+C:/Users/shshiu/Desktop/temp/from Mr. wu/081810/V1495_USER_DEMO/FIT/lpm_compare0.bsf
+C:/Users/shshiu/Desktop/temp/from Mr. wu/081810/V1495_USER_DEMO/FIT/lpm_compare0.inc
+C:/Users/shshiu/Desktop/temp/from Mr. wu/081810/V1495_USER_DEMO/FIT/lpm_compare0.qip
+C:/Users/shshiu/Desktop/temp/from Mr. wu/081810/V1495_USER_DEMO/FIT/lpm_compare0.tdf
+C:/Users/shshiu/Desktop/temp/from Mr. wu/081810/V1495_USER_DEMO/FIT/lpm_counter0.bsf
+C:/Users/shshiu/Desktop/temp/from Mr. wu/081810/V1495_USER_DEMO/FIT/lpm_counter0.inc
+C:/Users/shshiu/Desktop/temp/from Mr. wu/081810/V1495_USER_DEMO/FIT/lpm_counter0.qip
+C:/Users/shshiu/Desktop/temp/from Mr. wu/081810/V1495_USER_DEMO/FIT/lpm_counter0.vhd
+C:/Users/shshiu/Desktop/temp/from Mr. wu/081810/V1495_USER_DEMO/FIT/lpm_counter1.bsf
+C:/Users/shshiu/Desktop/temp/from Mr. wu/081810/V1495_USER_DEMO/FIT/lpm_counter1.inc
+C:/Users/shshiu/Desktop/temp/from Mr. wu/081810/V1495_USER_DEMO/FIT/lpm_counter1.qip
+C:/Users/shshiu/Desktop/temp/from Mr. wu/081810/V1495_USER_DEMO/FIT/lpm_counter1.tdf
+C:/Users/shshiu/Desktop/temp/from Mr. wu/081810/V1495_USER_DEMO/FIT/lpm_counter2.bsf
+C:/Users/shshiu/Desktop/temp/from Mr. wu/081810/V1495_USER_DEMO/FIT/lpm_counter2.inc
+C:/Users/shshiu/Desktop/temp/from Mr. wu/081810/V1495_USER_DEMO/FIT/lpm_counter2.qip
+C:/Users/shshiu/Desktop/temp/from Mr. wu/081810/V1495_USER_DEMO/FIT/lpm_counter2.vhd
+C:/Users/shshiu/Desktop/temp/from Mr. wu/081810/V1495_USER_DEMO/FIT/lpm_counter3.bsf
+C:/Users/shshiu/Desktop/temp/from Mr. wu/081810/V1495_USER_DEMO/FIT/lpm_counter3.inc
+C:/Users/shshiu/Desktop/temp/from Mr. wu/081810/V1495_USER_DEMO/FIT/lpm_counter3.qip
+C:/Users/shshiu/Desktop/temp/from Mr. wu/081810/V1495_USER_DEMO/FIT/lpm_counter3.tdf
+C:/Users/shshiu/Desktop/temp/from Mr. wu/081810/V1495_USER_DEMO/FIT/lpm_decode0.bsf
+C:/Users/shshiu/Desktop/temp/from Mr. wu/081810/V1495_USER_DEMO/FIT/lpm_decode0.inc
+C:/Users/shshiu/Desktop/temp/from Mr. wu/081810/V1495_USER_DEMO/FIT/lpm_decode0.qip
+C:/Users/shshiu/Desktop/temp/from Mr. wu/081810/V1495_USER_DEMO/FIT/lpm_decode0.tdf
+C:/Users/shshiu/Desktop/temp/from Mr. wu/081810/V1495_USER_DEMO/FIT/lpm_decode1.bsf
+C:/Users/shshiu/Desktop/temp/from Mr. wu/081810/V1495_USER_DEMO/FIT/lpm_decode1.inc
+C:/Users/shshiu/Desktop/temp/from Mr. wu/081810/V1495_USER_DEMO/FIT/lpm_decode1.qip
+C:/Users/shshiu/Desktop/temp/from Mr. wu/081810/V1495_USER_DEMO/FIT/lpm_decode1.tdf
+C:/Users/shshiu/Desktop/temp/from Mr. wu/081810/V1495_USER_DEMO/FIT/lpm_mux0.bsf
+C:/Users/shshiu/Desktop/temp/from Mr. wu/081810/V1495_USER_DEMO/FIT/lpm_mux0.inc
+C:/Users/shshiu/Desktop/temp/from Mr. wu/081810/V1495_USER_DEMO/FIT/lpm_mux0.qip
+C:/Users/shshiu/Desktop/temp/from Mr. wu/081810/V1495_USER_DEMO/FIT/lpm_mux0.tdf
+C:/Users/shshiu/Desktop/temp/from Mr. wu/081810/V1495_USER_DEMO/FIT/lpm_mux1.bsf
+C:/Users/shshiu/Desktop/temp/from Mr. wu/081810/V1495_USER_DEMO/FIT/lpm_mux1.inc
+C:/Users/shshiu/Desktop/temp/from Mr. wu/081810/V1495_USER_DEMO/FIT/lpm_mux1.qip
+C:/Users/shshiu/Desktop/temp/from Mr. wu/081810/V1495_USER_DEMO/FIT/lpm_mux1.tdf
+C:/Users/shshiu/Desktop/temp/from Mr. wu/081810/V1495_USER_DEMO/FIT/lpm_mux2.bsf
+C:/Users/shshiu/Desktop/temp/from Mr. wu/081810/V1495_USER_DEMO/FIT/lpm_mux2.inc
+C:/Users/shshiu/Desktop/temp/from Mr. wu/081810/V1495_USER_DEMO/FIT/lpm_mux2.qip
+C:/Users/shshiu/Desktop/temp/from Mr. wu/081810/V1495_USER_DEMO/FIT/lpm_mux2.tdf
+C:/Users/shshiu/Desktop/temp/from Mr. wu/081810/V1495_USER_DEMO/FIT/lpm_mux3.bsf
+C:/Users/shshiu/Desktop/temp/from Mr. wu/081810/V1495_USER_DEMO/FIT/lpm_mux3.inc
+C:/Users/shshiu/Desktop/temp/from Mr. wu/081810/V1495_USER_DEMO/FIT/lpm_mux3.qip
+C:/Users/shshiu/Desktop/temp/from Mr. wu/081810/V1495_USER_DEMO/FIT/lpm_mux3.tdf
+C:/Users/shshiu/Desktop/temp/from Mr. wu/081810/V1495_USER_DEMO/FIT/lpm_mux4.bsf
+C:/Users/shshiu/Desktop/temp/from Mr. wu/081810/V1495_USER_DEMO/FIT/lpm_mux4.inc
+C:/Users/shshiu/Desktop/temp/from Mr. wu/081810/V1495_USER_DEMO/FIT/lpm_mux4.qip
+C:/Users/shshiu/Desktop/temp/from Mr. wu/081810/V1495_USER_DEMO/FIT/lpm_mux4.tdf
+C:/Users/shshiu/Desktop/temp/from Mr. wu/081810/V1495_USER_DEMO/FIT/lpm_mux5.bsf
+C:/Users/shshiu/Desktop/temp/from Mr. wu/081810/V1495_USER_DEMO/FIT/lpm_mux5.inc
+C:/Users/shshiu/Desktop/temp/from Mr. wu/081810/V1495_USER_DEMO/FIT/lpm_mux5.qip
+C:/Users/shshiu/Desktop/temp/from Mr. wu/081810/V1495_USER_DEMO/FIT/lpm_mux5.tdf
+C:/Users/shshiu/Desktop/temp/from Mr. wu/081810/V1495_USER_DEMO/FIT/lpm_mux6.bsf
+C:/Users/shshiu/Desktop/temp/from Mr. wu/081810/V1495_USER_DEMO/FIT/lpm_mux6.inc
+C:/Users/shshiu/Desktop/temp/from Mr. wu/081810/V1495_USER_DEMO/FIT/lpm_mux6.qip
+C:/Users/shshiu/Desktop/temp/from Mr. wu/081810/V1495_USER_DEMO/FIT/lpm_mux6.tdf
+C:/Users/shshiu/Desktop/temp/from Mr. wu/081810/V1495_USER_DEMO/FIT/lpm_ram_dp0.bsf
+C:/Users/shshiu/Desktop/temp/from Mr. wu/081810/V1495_USER_DEMO/FIT/lpm_ram_dp0.inc
+C:/Users/shshiu/Desktop/temp/from Mr. wu/081810/V1495_USER_DEMO/FIT/lpm_ram_dp0.qip
+C:/Users/shshiu/Desktop/temp/from Mr. wu/081810/V1495_USER_DEMO/FIT/lpm_ram_dp0.tdf
+C:/Users/shshiu/Desktop/temp/from Mr. wu/081810/V1495_USER_DEMO/FIT/lpm_ram_dp1.bsf
+C:/Users/shshiu/Desktop/temp/from Mr. wu/081810/V1495_USER_DEMO/FIT/lpm_ram_dp1.inc
+C:/Users/shshiu/Desktop/temp/from Mr. wu/081810/V1495_USER_DEMO/FIT/lpm_ram_dp1.qip
+C:/Users/shshiu/Desktop/temp/from Mr. wu/081810/V1495_USER_DEMO/FIT/lpm_ram_dp1.tdf
+C:/Users/shshiu/Desktop/temp/from Mr. wu/081810/V1495_USER_DEMO/FIT/spare_if.vhd
+C:/Users/shshiu/Desktop/temp/from Mr. wu/081810/V1495_USER_DEMO/FIT/tristate_if.vhd
+C:/Users/shshiu/Desktop/temp/from Mr. wu/081810/V1495_USER_DEMO/FIT/v1495usr_hal.vqm
+C:/Users/shshiu/Desktop/temp/from Mr. wu/081810/V1495_USER_DEMO/FIT/v1495usr_pkg.vhd
+c:/altera/91/quartus/bin/assignment_defaults.qdf
+	======= Total: 99 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.

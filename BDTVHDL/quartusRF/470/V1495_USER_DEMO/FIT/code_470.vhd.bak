@@ -1,0 +1,676 @@
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+USE ieee.std_logic_arith.all;
+USE ieee.std_logic_unsigned.all;
+ENTITY code_460 IS
+   PORT( 
+      --*************************************************
+      -- V1495 Front Panel Ports (PORT A,B,C,G)
+      --*************************************************
+      A_DIN_L       : IN     std_logic_vector (31 DOWNTO 0);  -- In A (32 x LVDS/ECL)
+      B_DIN_L       : IN     std_logic_vector (31 DOWNTO 0);  -- In B (32 x LVDS/ECL)
+      D_DIN_L       : IN     std_logic_vector (31 DOWNTO 0);  -- In D (32 x LVDS/ECL)
+      E_DIN_L       : IN     std_logic_vector (31 DOWNTO 0);  -- In E (32 x LVDS/ECL)
+      F_DOUT_L      : OUT    std_logic_vector (31 DOWNTO 0);  -- OUT F (32 x LVDS/ECL)
+      C_DOUT_L      : OUT    std_logic_vector (31 DOWNTO 0);  -- Out C (32 x LVDS)
+      c1            : IN STD_LOGIC                            -- the PLL1 output
+   );
+END code_460 ;
+ARCHITECTURE rtl OF code_460 IS
+        signal A     : std_logic_vector(31 downto 0);
+        signal A1     : std_logic_vector(31 downto 0);
+        signal B     : std_logic_vector(31 downto 0);
+        signal B1     : std_logic_vector(31 downto 0);
+        signal C     : std_logic_vector(31 downto 0);
+        signal D     : std_logic_vector(31 downto 0);
+        signal D1     : std_logic_vector(31 downto 0);
+        signal E1     : std_logic_vector(31 downto 0);
+        signal E2     : std_logic_vector(31 downto 0);
+        signal E     : std_logic_vector(31 downto 0);
+        signal F     : std_logic_vector(31 downto 0);
+        signal G     : std_logic_vector(1 downto 0);
+        signal F_temp_lv1_1: std_logic_vector(  5 downto 0);
+        signal F_temp_lv1_2: std_logic_vector(  3 downto 0);
+        signal F_temp_lv1_3: std_logic_vector(  3 downto 0);
+        signal F_temp_lv1_4: std_logic_vector(  3 downto 0);
+        signal F_temp_lv2_1: std_logic_vector(  1 downto 0);
+        signal F_temp_lv2_2: std_logic_vector(  0 downto 0);
+        signal F_temp_lv2_3: std_logic_vector(  0 downto 0);
+        signal F_temp_lv2_4: std_logic_vector(  0 downto 0);
+        signal F_temp_lv3_1: std_logic_vector(  0 downto 0);
+        signal F_temp_lv3_2: std_logic_vector(  0 downto 0);
+        signal F_temp_lv3_3: std_logic_vector(  0 downto 0);
+        signal F_temp_lv3_4: std_logic_vector(  0 downto 0);
+        signal F_temp_lv4_1: std_logic_vector(  0 downto 0);
+        signal F_temp_lv4_2: std_logic_vector(  0 downto 0);
+        signal F_temp_lv4_3: std_logic_vector(  0 downto 0);
+        signal F_temp_lv4_4: std_logic_vector(  0 downto 0);
+        signal F_temp_lv5_1: std_logic_vector(  0 downto 0);
+        signal F_temp_lv5_2: std_logic_vector(  0 downto 0);
+        signal F_temp_lv5_3: std_logic_vector(  0 downto 0);
+        signal F_temp_lv5_4: std_logic_vector(  0 downto 0);
+        signal F_temp_lv6_1: std_logic_vector(  0 downto 0);
+        signal F_temp_lv6_2: std_logic_vector(  0 downto 0);
+        signal F_temp_lv6_3: std_logic_vector(  0 downto 0);
+        signal F_temp_lv6_4: std_logic_vector(  0 downto 0);
+        signal F_temp_lv7_1: std_logic_vector(  0 downto 0);
+        signal F_temp_lv7_2: std_logic_vector(  0 downto 0);
+        signal F_temp_lv7_3: std_logic_vector(  0 downto 0);
+        signal F_temp_lv7_4: std_logic_vector(  0 downto 0);
+        signal F_temp_lv8_1: std_logic_vector(  0 downto 0);
+        signal F_temp_lv8_2: std_logic_vector(  0 downto 0);
+        signal F_temp_lv8_3: std_logic_vector(  0 downto 0);
+        signal F_temp_lv8_4: std_logic_vector(  0 downto 0);
+        signal NF_temp_lv8: std_logic_vector(  7 downto 0);
+        signal NF_temp_lv9: std_logic_vector(  3 downto 0);
+BEGIN
+   A1 (22 downto 0) <= A_DIN_L (24 downto 2) ;
+   B1 (15 downto 0) <= B_DIN_L (15 downto 0) ;
+   D1 (15 downto 0) <= B_DIN_L (31 downto 16) ;
+   E1 (15 downto 0) <= D_DIN_L (15 downto 0);
+   E2 (15 downto 0) <= D_DIN_L (31 downto 16);
+   F_DOUT_L(0) <= F_temp_lv8_1(0);
+   F_DOUT_L(1) <= F_temp_lv8_2(0);
+   F_DOUT_L(2) <= F_temp_lv8_3(0);
+   F_DOUT_L(3) <= F_temp_lv8_4(0);
+   C_DOUT_L(0) <= F_temp_lv8_1(0);
+   C_DOUT_L(1) <= F_temp_lv8_2(0);
+   C_DOUT_L(2) <= F_temp_lv8_3(0);
+   C_DOUT_L(3) <= F_temp_lv8_4(0);
+lookuptable_LV1 : process(c1)    
+begin  
+ if c1'event and c1 = '1' then
+		if(A1( 0)='1')then
+		A( 0) <='1';
+		else
+		A( 0) <='0';
+		end if;
+		if(A1( 1)='1')then
+		A( 1) <='1';
+		else
+		A( 1) <='0';
+		end if;
+		if(A1( 2)='1')then
+		A( 2) <='1';
+		else
+		A( 2) <='0';
+		end if;
+		if(A1( 3)='1')then
+		A( 3) <='1';
+		else
+		A( 3) <='0';
+		end if;
+		if(A1( 4)='1')then
+		A( 4) <='1';
+		else
+		A( 4) <='0';
+		end if;
+		if(A1( 5)='1')then
+		A( 5) <='1';
+		else
+		A( 5) <='0';
+		end if;
+		if(A1( 6)='1')then
+		A( 6) <='1';
+		else
+		A( 6) <='0';
+		end if;
+		if(A1( 7)='1')then
+		A( 7) <='1';
+		else
+		A( 7) <='0';
+		end if;
+		if(A1( 8)='1')then
+		A( 8) <='1';
+		else
+		A( 8) <='0';
+		end if;
+		if(A1( 9)='1')then
+		A( 9) <='1';
+		else
+		A( 9) <='0';
+		end if;
+		if(A1(10)='1')then
+		A(10) <='1';
+		else
+		A(10) <='0';
+		end if;
+		if(A1(11)='1')then
+		A(11) <='1';
+		else
+		A(11) <='0';
+		end if;
+		if(A1(12)='1')then
+		A(12) <='1';
+		else
+		A(12) <='0';
+		end if;
+		if(A1(13)='1')then
+		A(13) <='1';
+		else
+		A(13) <='0';
+		end if;
+		if(A1(14)='1')then
+		A(14) <='1';
+		else
+		A(14) <='0';
+		end if;
+		if(A1(15)='1')then
+		A(15) <='1';
+		else
+		A(15) <='0';
+		end if;
+		if(A1(16)='1')then
+		A(16) <='1';
+		else
+		A(16) <='0';
+		end if;
+		if(A1(17)='1')then
+		A(17) <='1';
+		else
+		A(17) <='0';
+		end if;
+		if(A1(18)='1')then
+		A(18) <='1';
+		else
+		A(18) <='0';
+		end if;
+		if(A1(19)='1')then
+		A(19) <='1';
+		else
+		A(19) <='0';
+		end if;
+		if(A1(20)='1')then
+		A(20) <='1';
+		else
+		A(20) <='0';
+		end if;
+		if(A1(21)='1')then
+		A(21) <='1';
+		else
+		A(21) <='0';
+		end if;
+		if(A1(22)='1')then
+		A(22) <='1';
+		else
+		A(22) <='0';
+		end if;
+		if(B1( 0)='1')then
+		B( 0) <='1';
+		else
+		B( 0) <='0';
+		end if;
+		if(B1( 1)='1')then
+		B( 1) <='1';
+		else
+		B( 1) <='0';
+		end if;
+		if(B1( 2)='1')then
+		B( 2) <='1';
+		else
+		B( 2) <='0';
+		end if;
+		if(B1( 3)='1')then
+		B( 3) <='1';
+		else
+		B( 3) <='0';
+		end if;
+		if(B1( 4)='1')then
+		B( 4) <='1';
+		else
+		B( 4) <='0';
+		end if;
+		if(B1( 5)='1')then
+		B( 5) <='1';
+		else
+		B( 5) <='0';
+		end if;
+		if(B1( 6)='1')then
+		B( 6) <='1';
+		else
+		B( 6) <='0';
+		end if;
+		if(B1( 7)='1')then
+		B( 7) <='1';
+		else
+		B( 7) <='0';
+		end if;
+		if(B1( 8)='1')then
+		B( 8) <='1';
+		else
+		B( 8) <='0';
+		end if;
+		if(B1( 9)='1')then
+		B( 9) <='1';
+		else
+		B( 9) <='0';
+		end if;
+		if(B1(10)='1')then
+		B(10) <='1';
+		else
+		B(10) <='0';
+		end if;
+		if(B1(11)='1')then
+		B(11) <='1';
+		else
+		B(11) <='0';
+		end if;
+		if(B1(12)='1')then
+		B(12) <='1';
+		else
+		B(12) <='0';
+		end if;
+		if(B1(13)='1')then
+		B(13) <='1';
+		else
+		B(13) <='0';
+		end if;
+		if(B1(14)='1')then
+		B(14) <='1';
+		else
+		B(14) <='0';
+		end if;
+		if(B1(15)='1')then
+		B(15) <='1';
+		else
+		B(15) <='0';
+		end if;
+		if(D1( 0)='1')then
+		D( 0) <='1';
+		else
+		D( 0) <='0';
+		end if;
+		if(D1( 1)='1')then
+		D( 1) <='1';
+		else
+		D( 1) <='0';
+		end if;
+		if(D1( 2)='1')then
+		D( 2) <='1';
+		else
+		D( 2) <='0';
+		end if;
+		if(D1( 3)='1')then
+		D( 3) <='1';
+		else
+		D( 3) <='0';
+		end if;
+		if(D1( 4)='1')then
+		D( 4) <='1';
+		else
+		D( 4) <='0';
+		end if;
+		if(D1( 5)='1')then
+		D( 5) <='1';
+		else
+		D( 5) <='0';
+		end if;
+		if(D1( 6)='1')then
+		D( 6) <='1';
+		else
+		D( 6) <='0';
+		end if;
+		if(D1( 7)='1')then
+		D( 7) <='1';
+		else
+		D( 7) <='0';
+		end if;
+		if(D1( 8)='1')then
+		D( 8) <='1';
+		else
+		D( 8) <='0';
+		end if;
+		if(D1( 9)='1')then
+		D( 9) <='1';
+		else
+		D( 9) <='0';
+		end if;
+		if(D1(10)='1')then
+		D(10) <='1';
+		else
+		D(10) <='0';
+		end if;
+		if(D1(11)='1')then
+		D(11) <='1';
+		else
+		D(11) <='0';
+		end if;
+		if(D1(12)='1')then
+		D(12) <='1';
+		else
+		D(12) <='0';
+		end if;
+		if(D1(13)='1')then
+		D(13) <='1';
+		else
+		D(13) <='0';
+		end if;
+		if(D1(14)='1')then
+		D(14) <='1';
+		else
+		D(14) <='0';
+		end if;
+		if(D1(15)='1')then
+		D(15) <='1';
+		else
+		D(15) <='0';
+		end if;
+		if(E1( 0)='1' OR E2( 0)='1')then
+		E( 0) <='1';
+		else
+		E( 0) <='0';
+		end if;
+		if(E1( 1)='1' OR E2( 1)='1')then
+		E( 1) <='1';
+		else
+		E( 1) <='0';
+		end if;
+		if(E1( 2)='1' OR E2( 2)='1')then
+		E( 2) <='1';
+		else
+		E( 2) <='0';
+		end if;
+		if(E1( 3)='1' OR E2( 3)='1')then
+		E( 3) <='1';
+		else
+		E( 3) <='0';
+		end if;
+		if(E1( 4)='1' OR E2( 4)='1')then
+		E( 4) <='1';
+		else
+		E( 4) <='0';
+		end if;
+		if(E1( 5)='1' OR E2( 5)='1')then
+		E( 5) <='1';
+		else
+		E( 5) <='0';
+		end if;
+		if(E1( 6)='1' OR E2( 6)='1')then
+		E( 6) <='1';
+		else
+		E( 6) <='0';
+		end if;
+		if(E1( 7)='1' OR E2( 7)='1')then
+		E( 7) <='1';
+		else
+		E( 7) <='0';
+		end if;
+		if(E1( 8)='1' OR E2( 8)='1')then
+		E( 8) <='1';
+		else
+		E( 8) <='0';
+		end if;
+		if(E1( 9)='1' OR E2( 9)='1')then
+		E( 9) <='1';
+		else
+		E( 9) <='0';
+		end if;
+		if(E1(10)='1' OR E2(10)='1')then
+		E(10) <='1';
+		else
+		E(10) <='0';
+		end if;
+		if(E1(11)='1' OR E2(11)='1')then
+		E(11) <='1';
+		else
+		E(11) <='0';
+		end if;
+		if(E1(12)='1' OR E2(12)='1')then
+		E(12) <='1';
+		else
+		E(12) <='0';
+		end if;
+		if(E1(13)='1' OR E2(13)='1')then
+		E(13) <='1';
+		else
+		E(13) <='0';
+		end if;
+		if(E1(14)='1' OR E2(14)='1')then
+		E(14) <='1';
+		else
+		E(14) <='0';
+		end if;
+		if(E1(15)='1' OR E2(15)='1')then
+		E(15) <='1';
+		else
+		E(15) <='0';
+		end if;
+ 
+        if(A( 0)='1' OR A( 1)='1' OR A( 2)='1' OR A( 3)='1' )then
+        F_temp_lv1_1(  0)<='1';
+        else
+        F_temp_lv1_1(  0)<='0';
+        end if;
+        if(A( 4)='1' OR A( 5)='1' OR A( 6)='1' OR A( 7)='1' )then
+        F_temp_lv1_1(  1)<='1';
+        else
+        F_temp_lv1_1(  1)<='0';
+        end if;
+        if(A( 8)='1' OR A( 9)='1' OR A(10)='1' OR A(11)='1' )then
+        F_temp_lv1_1(  2)<='1';
+        else
+        F_temp_lv1_1(  2)<='0';
+        end if;
+        if(A(12)='1' OR A(13)='1' OR A(14)='1' OR A(15)='1' )then
+        F_temp_lv1_1(  3)<='1';
+        else
+        F_temp_lv1_1(  3)<='0';
+        end if;
+        if(A(16)='1' OR A(17)='1' OR A(18)='1' OR A(19)='1' )then
+        F_temp_lv1_1(  4)<='1';
+        else
+        F_temp_lv1_1(  4)<='0';
+        end if;
+        if(A(20)='1' OR A(21)='1' OR A(22)='1' )then
+        F_temp_lv1_1(  5)<='1';
+        else
+        F_temp_lv1_1(  5)<='0';
+        end if;
+        if(B( 0)='1' OR B( 1)='1' OR B( 2)='1' OR B( 3)='1' )then
+        F_temp_lv1_2(  0)<='1';
+        else
+        F_temp_lv1_2(  0)<='0';
+        end if;
+        if(B( 4)='1' OR B( 5)='1' OR B( 6)='1' OR B( 7)='1' )then
+        F_temp_lv1_2(  1)<='1';
+        else
+        F_temp_lv1_2(  1)<='0';
+        end if;
+        if(B( 8)='1' OR B( 9)='1' OR B(10)='1' OR B(11)='1' )then
+        F_temp_lv1_2(  2)<='1';
+        else
+        F_temp_lv1_2(  2)<='0';
+        end if;
+        if(B(12)='1' OR B(13)='1' OR B(14)='1' OR B(15)='1' )then
+        F_temp_lv1_2(  3)<='1';
+        else
+        F_temp_lv1_2(  3)<='0';
+        end if;
+        if(D( 0)='1' OR D( 1)='1' OR D( 2)='1' OR D( 3)='1' )then
+        F_temp_lv1_3(  0)<='1';
+        else
+        F_temp_lv1_3(  0)<='0';
+        end if;
+        if(D( 4)='1' OR D( 5)='1' OR D( 6)='1' OR D( 7)='1' )then
+        F_temp_lv1_3(  1)<='1';
+        else
+        F_temp_lv1_3(  1)<='0';
+        end if;
+        if(D( 8)='1' OR D( 9)='1' OR D(10)='1' OR D(11)='1' )then
+        F_temp_lv1_3(  2)<='1';
+        else
+        F_temp_lv1_3(  2)<='0';
+        end if;
+        if(D(12)='1' OR D(13)='1' OR D(14)='1' OR D(15)='1' )then
+        F_temp_lv1_3(  3)<='1';
+        else
+        F_temp_lv1_3(  3)<='0';
+        end if;
+        if(E( 0)='1' OR E( 1)='1' OR E( 2)='1' OR E( 3)='1' )then
+        F_temp_lv1_4(  0)<='1';
+        else
+        F_temp_lv1_4(  0)<='0';
+        end if;
+        if(E( 4)='1' OR E( 5)='1' OR E( 6)='1' OR E( 7)='1' )then
+        F_temp_lv1_4(  1)<='1';
+        else
+        F_temp_lv1_4(  1)<='0';
+        end if;
+        if(E( 8)='1' OR E( 9)='1' OR E(10)='1' OR E(11)='1' )then
+        F_temp_lv1_4(  2)<='1';
+        else
+        F_temp_lv1_4(  2)<='0';
+        end if;
+        if(E(12)='1' OR E(13)='1' OR E(14)='1' OR E(15)='1' )then
+        F_temp_lv1_4(  3)<='1';
+        else
+        F_temp_lv1_4(  3)<='0';
+        end if;
+        if(F_temp_lv1_1(  0)='1' OR F_temp_lv1_1(  1)='1' OR F_temp_lv1_1(  2)='1' OR F_temp_lv1_1(  3)='1' )then
+        F_temp_lv2_1(  0)<='1';
+        else
+        F_temp_lv2_1(  0)<='0';
+        end if;
+        if(F_temp_lv1_1(  4)='1' OR F_temp_lv1_1(  5)='1' )then
+        F_temp_lv2_1(  1)<='1';
+        else
+        F_temp_lv2_1(  1)<='0';
+        end if;
+        if(F_temp_lv1_2(  0)='1' OR F_temp_lv1_2(  1)='1' OR F_temp_lv1_2(  2)='1' OR F_temp_lv1_2(  3)='1' )then
+        F_temp_lv2_2(  0)<='1';
+        else
+        F_temp_lv2_2(  0)<='0';
+        end if;
+        if(F_temp_lv1_3(  0)='1' OR F_temp_lv1_3(  1)='1' OR F_temp_lv1_3(  2)='1' OR F_temp_lv1_3(  3)='1' )then
+        F_temp_lv2_3(  0)<='1';
+        else
+        F_temp_lv2_3(  0)<='0';
+        end if;
+        if(F_temp_lv1_4(  0)='1' OR F_temp_lv1_4(  1)='1' OR F_temp_lv1_4(  2)='1' OR F_temp_lv1_4(  3)='1' )then
+        F_temp_lv2_4(  0)<='1';
+        else
+        F_temp_lv2_4(  0)<='0';
+        end if;
+        if(F_temp_lv2_1(  0)='1' OR F_temp_lv2_1(  1)='1' )then
+        F_temp_lv3_1(  0)<='1';
+        else
+        F_temp_lv3_1(  0)<='0';
+        end if;
+        if(F_temp_lv2_2(  0)='1' )then
+        F_temp_lv3_2(  0)<='1';
+        else
+        F_temp_lv3_2(  0)<='0';
+        end if;
+        if(F_temp_lv2_3(  0)='1' )then
+        F_temp_lv3_3(  0)<='1';
+        else
+        F_temp_lv3_3(  0)<='0';
+        end if;
+        if(F_temp_lv2_4(  0)='1' )then
+        F_temp_lv3_4(  0)<='1';
+        else
+        F_temp_lv3_4(  0)<='0';
+        end if;
+        if(F_temp_lv3_1(  0)='1' )then
+        F_temp_lv4_1(  0)<='1';
+        else
+        F_temp_lv4_1(  0)<='0';
+        end if;
+        if(F_temp_lv3_2(  0)='1' )then
+        F_temp_lv4_2(  0)<='1';
+        else
+        F_temp_lv4_2(  0)<='0';
+        end if;
+        if(F_temp_lv3_3(  0)='1' )then
+        F_temp_lv4_3(  0)<='1';
+        else
+        F_temp_lv4_3(  0)<='0';
+        end if;
+        if(F_temp_lv3_4(  0)='1' )then
+        F_temp_lv4_4(  0)<='1';
+        else
+        F_temp_lv4_4(  0)<='0';
+        end if;
+        if(F_temp_lv4_1(  0)='1' )then
+        F_temp_lv5_1(  0)<='1';
+        else
+        F_temp_lv5_1(  0)<='0';
+        end if;
+        if(F_temp_lv4_2(  0)='1' )then
+        F_temp_lv5_2(  0)<='1';
+        else
+        F_temp_lv5_2(  0)<='0';
+        end if;
+        if(F_temp_lv4_3(  0)='1' )then
+        F_temp_lv5_3(  0)<='1';
+        else
+        F_temp_lv5_3(  0)<='0';
+        end if;
+        if(F_temp_lv4_4(  0)='1' )then
+        F_temp_lv5_4(  0)<='1';
+        else
+        F_temp_lv5_4(  0)<='0';
+        end if;
+        if(F_temp_lv5_1(  0)='1' )then
+        F_temp_lv6_1(  0)<='1';
+        else
+        F_temp_lv6_1(  0)<='0';
+        end if;
+        if(F_temp_lv5_2(  0)='1' )then
+        F_temp_lv6_2(  0)<='1';
+        else
+        F_temp_lv6_2(  0)<='0';
+        end if;
+        if(F_temp_lv5_3(  0)='1' )then
+        F_temp_lv6_3(  0)<='1';
+        else
+        F_temp_lv6_3(  0)<='0';
+        end if;
+        if(F_temp_lv5_4(  0)='1' )then
+        F_temp_lv6_4(  0)<='1';
+        else
+        F_temp_lv6_4(  0)<='0';
+        end if;
+        if(F_temp_lv6_1(  0)='1' )then
+        F_temp_lv7_1(  0)<='1';
+        else
+        F_temp_lv7_1(  0)<='0';
+        end if;
+        if(F_temp_lv6_2(  0)='1' )then
+        F_temp_lv7_2(  0)<='1';
+        else
+        F_temp_lv7_2(  0)<='0';
+        end if;
+        if(F_temp_lv6_3(  0)='1' )then
+        F_temp_lv7_3(  0)<='1';
+        else
+        F_temp_lv7_3(  0)<='0';
+        end if;
+        if(F_temp_lv6_4(  0)='1' )then
+        F_temp_lv7_4(  0)<='1';
+        else
+        F_temp_lv7_4(  0)<='0';
+        end if;
+        if(F_temp_lv7_1(  0)='1' )then
+        F_temp_lv8_1(  0)<='1';
+        else
+        F_temp_lv8_1(  0)<='0';
+        end if;
+        if(F_temp_lv7_2(  0)='1' )then
+        F_temp_lv8_2(  0)<='1';
+        else
+        F_temp_lv8_2(  0)<='0';
+        end if;
+        if(F_temp_lv7_3(  0)='1' )then
+        F_temp_lv8_3(  0)<='1';
+        else
+        F_temp_lv8_3(  0)<='0';
+        end if;
+        if(F_temp_lv7_4(  0)='1' )then
+        F_temp_lv8_4(  0)<='1';
+        else
+        F_temp_lv8_4(  0)<='0';
+        end if;
+ end if;
+end process;	
+END rtl;

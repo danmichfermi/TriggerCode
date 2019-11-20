@@ -1,0 +1,6 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="mgmue">
+		<CBX_INST_ENTRY INSTANCE_NAME="|mgmue|lpm_compare:mgl_prim1" CBX_FILE_NAME="cmpr_k1j.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

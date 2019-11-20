@@ -1,0 +1,106 @@
+Adder_1: Adder_type
+port map(
+aVar3S0 => dataa,
+aVar3S1 => datab,
+aVar4S0 => result
+);
+
+Adder_2: Adder_type
+port map(
+aVar3S2 => dataa,
+aVar3S3 => datab,
+aVar4S1 => result
+);
+
+Adder_3: Adder_type
+port map(
+aVar3S4 => dataa,
+aVar3S5 => datab,
+aVar4S2 => result
+);
+
+Adder_4: Adder_type
+port map(
+aVar3S6 => dataa,
+aVar3S7 => datab,
+aVar4S3 => result
+);
+
+Adder_5: Adder_type
+port map(
+aVar3S8 => dataa,
+aVar3S9 => datab,
+aVar4S4 => result
+);
+
+Adder_6: Adder_type
+port map(
+aVar3S10 => dataa,
+aVar3S11 => datab,
+aVar4S5 => result
+);
+
+Adder_7: Adder_type
+port map(
+aVar3S12 => dataa,
+aVar3S13 => datab,
+aVar4S6 => result
+);
+
+Adder_8: Adder_type
+port map(
+aVar3S14 => dataa,
+aVar3S15 => datab,
+aVar4S7 => result
+);
+
+Adder_9: Adder_type
+port map(
+aVar4S0 => dataa,
+aVar4S1 => datab,
+aVar5S0 => result
+);
+
+Adder_10: Adder_type
+port map(
+aVar4S2 => dataa,
+aVar4S3 => datab,
+aVar5S1 => result
+);
+
+Adder_11: Adder_type
+port map(
+aVar4S4 => dataa,
+aVar4S5 => datab,
+aVar5S2 => result
+);
+
+Adder_12: Adder_type
+port map(
+aVar4S6 => dataa,
+aVar4S7 => datab,
+aVar5S3 => result
+);
+
+Adder_13: Adder_type
+port map(
+aVar5S0 => dataa,
+aVar5S1 => datab,
+aVar6S0 => result
+);
+
+Adder_14: Adder_type
+port map(
+aVar5S2 => dataa,
+aVar5S3 => datab,
+aVar6S1 => result
+);
+
+Adder_15: Adder_type
+port map(
+aVar6S0 => dataa,
+aVar6S1 => datab,
+aVar7a => result
+);
+
+result

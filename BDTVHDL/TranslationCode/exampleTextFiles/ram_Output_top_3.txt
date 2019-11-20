@@ -1,0 +1,144 @@
+component  ADDM4K3S8RAM 
+    PORT
+    (
+        clock        : IN STD_LOGIC ;
+        address        : IN STD_LOGIC_VECTOR (7 DOWNTO 0);
+        q        : OUT STD_LOGIC_VECTOR (15 DOWNTO 0)
+    );
+end component;
+
+component  ADDM4K3S9RAM 
+    PORT
+    (
+        clock        : IN STD_LOGIC ;
+        address        : IN STD_LOGIC_VECTOR (7 DOWNTO 0);
+        q        : OUT STD_LOGIC_VECTOR (15 DOWNTO 0)
+    );
+end component;
+
+component  ADDM4K3S12RAM 
+    PORT
+    (
+        clock        : IN STD_LOGIC ;
+        address        : IN STD_LOGIC_VECTOR (7 DOWNTO 0);
+        q        : OUT STD_LOGIC_VECTOR (15 DOWNTO 0)
+    );
+end component;
+
+component  ADDM4K3S13RAM 
+    PORT
+    (
+        clock        : IN STD_LOGIC ;
+        address        : IN STD_LOGIC_VECTOR (7 DOWNTO 0);
+        q        : OUT STD_LOGIC_VECTOR (15 DOWNTO 0)
+    );
+end component;
+
+component  ADDM4K3S10RAM 
+    PORT
+    (
+        clock        : IN STD_LOGIC ;
+        address        : IN STD_LOGIC_VECTOR (7 DOWNTO 0);
+        q        : OUT STD_LOGIC_VECTOR (15 DOWNTO 0)
+    );
+end component;
+
+component  ADDM4K3S11RAM 
+    PORT
+    (
+        clock        : IN STD_LOGIC ;
+        address        : IN STD_LOGIC_VECTOR (7 DOWNTO 0);
+        q        : OUT STD_LOGIC_VECTOR (15 DOWNTO 0)
+    );
+end component;
+
+component  ADDM4K3S14RAM 
+    PORT
+    (
+        clock        : IN STD_LOGIC ;
+        address        : IN STD_LOGIC_VECTOR (7 DOWNTO 0);
+        q        : OUT STD_LOGIC_VECTOR (15 DOWNTO 0)
+    );
+end component;
+
+component  ADDM4K3S15RAM 
+    PORT
+    (
+        clock        : IN STD_LOGIC ;
+        address        : IN STD_LOGIC_VECTOR (7 DOWNTO 0);
+        q        : OUT STD_LOGIC_VECTOR (15 DOWNTO 0)
+    );
+end component;
+
+component  ADDM4K3S2RAM 
+    PORT
+    (
+        clock        : IN STD_LOGIC ;
+        address        : IN STD_LOGIC_VECTOR (7 DOWNTO 0);
+        q        : OUT STD_LOGIC_VECTOR (15 DOWNTO 0)
+    );
+end component;
+
+component  ADDM4K3S3RAM 
+    PORT
+    (
+        clock        : IN STD_LOGIC ;
+        address        : IN STD_LOGIC_VECTOR (7 DOWNTO 0);
+        q        : OUT STD_LOGIC_VECTOR (15 DOWNTO 0)
+    );
+end component;
+
+component  ADDM4K3S4RAM 
+    PORT
+    (
+        clock        : IN STD_LOGIC ;
+        address        : IN STD_LOGIC_VECTOR (7 DOWNTO 0);
+        q        : OUT STD_LOGIC_VECTOR (15 DOWNTO 0)
+    );
+end component;
+
+component  ADDM4K3S5RAM 
+    PORT
+    (
+        clock        : IN STD_LOGIC ;
+        address        : IN STD_LOGIC_VECTOR (7 DOWNTO 0);
+        q        : OUT STD_LOGIC_VECTOR (15 DOWNTO 0)
+    );
+end component;
+
+component  ADDM4K3S6RAM 
+    PORT
+    (
+        clock        : IN STD_LOGIC ;
+        address        : IN STD_LOGIC_VECTOR (7 DOWNTO 0);
+        q        : OUT STD_LOGIC_VECTOR (15 DOWNTO 0)
+    );
+end component;
+
+component  ADDM4K3S7RAM 
+    PORT
+    (
+        clock        : IN STD_LOGIC ;
+        address        : IN STD_LOGIC_VECTOR (7 DOWNTO 0);
+        q        : OUT STD_LOGIC_VECTOR (15 DOWNTO 0)
+    );
+end component;
+
+component  ADDM4K3S0RAM 
+    PORT
+    (
+        clock        : IN STD_LOGIC ;
+        address        : IN STD_LOGIC_VECTOR (7 DOWNTO 0);
+        q        : OUT STD_LOGIC_VECTOR (15 DOWNTO 0)
+    );
+end component;
+
+component  ADDM4K3S1RAM 
+    PORT
+    (
+        clock        : IN STD_LOGIC ;
+        address        : IN STD_LOGIC_VECTOR (7 DOWNTO 0);
+        q        : OUT STD_LOGIC_VECTOR (15 DOWNTO 0)
+    );
+end component;
+

@@ -1,0 +1,17 @@
+echo "	F_DOUT_L(0) <= F_temp_lv9_1(0);" >> 450.vhd
+echo "	F_DOUT_L(1) <= F_temp_lv9_2(0);" >> 450.vhd
+echo "	F_DOUT_L(2) <= F_temp_lv9_3(0);" >> 450.vhd
+echo "	F_DOUT_L(3) <= F_temp_lv9_4(0);" >> 450.vhd
+echo "	C_DOUT_L(0) <= F_temp_lv9_1(0);" >> 450.vhd
+echo "	C_DOUT_L(1) <= F_temp_lv9_2(0);" >> 450.vhd
+echo "	C_DOUT_L(2) <= F_temp_lv9_3(0);" >> 450.vhd
+echo "	C_DOUT_L(3) <= F_temp_lv9_4(0);" >> 450.vhd
+
+echo "	F_DOUT_L(0) <= F_temp_lv9_1(0);" >> 440.vhd
+echo "	F_DOUT_L(1) <= F_temp_lv9_2(0);" >> 440.vhd
+echo "	F_DOUT_L(2) <= F_temp_lv9_3(0);" >> 440.vhd
+echo "	F_DOUT_L(3) <= F_temp_lv9_4(0);" >> 440.vhd
+echo "	C_DOUT_L(0) <= F_temp_lv9_1(0);" >> 440.vhd
+echo "	C_DOUT_L(1) <= F_temp_lv9_2(0);" >> 440.vhd
+echo "	C_DOUT_L(2) <= F_temp_lv9_3(0);" >> 440.vhd
+echo "	C_DOUT_L(3) <= F_temp_lv9_4(0);" >> 440.vhd

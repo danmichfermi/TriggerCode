@@ -1,0 +1,171 @@
+Archive Project report for SeaQuestTrig1
+Thu Aug 19 11:30:24 2010
+Quartus II Version 9.1 Build 222 10/21/2009 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Archive Project Summary
+  3. Archive Project Messages
+  4. Files Archived
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2009 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++----------------------------------------------------------------+
+; Archive Project Summary                                        ;
++------------------------+---------------------------------------+
+; Archive Project Status ; Successful - Thu Aug 19 11:30:24 2010 ;
+; Revision Name          ; SeaQuestTrig1                         ;
+; Top-level Entity Name  ; SeaQuestTrig1                         ;
+; Family                 ; Cyclone                               ;
++------------------------+---------------------------------------+
+
+
++--------------------------+
+; Archive Project Messages ;
++--------------------------+
+Info: File Set 'Source control' contains:
+    Info: Project source and settings files
+    Info: Automatically detected source files
+Info: ----------------------------------------------------------
+Info: ----------------------------------------------------------
+Info: Generated archive 'C:/Users/shshiu/Desktop/temp/from Mr. wu/081810/V1495_USER_DEMO/FIT/SeaQuestTrig1.qar'
+Info: ----------------------------------------------------------
+Info: ----------------------------------------------------------
+Info: Generated report 'SeaQuestTrig1.archive.rpt'
+Info: Evaluation of Tcl script c:/altera/91/quartus/common/tcl/apps/qpm/qar.tcl was successful
+Info: Quartus II Shell was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 164 megabytes
+    Info: Processing ended: Thu Aug 19 11:30:24 2010
+    Info: Elapsed time: 00:00:02
+    Info: Total CPU time (on all processors): 00:00:02
+
+
++--------------------------------------------------+
+; Files Archived                                   ;
++--------------------------------------------------+
+; File Name                                        ;
++--------------------------------------------------+
+; altpll0.bsf                                      ;
+; altpll0.inc                                      ;
+; altpll0.ppf                                      ;
+; altpll0.qip                                      ;
+; altpll0.tdf                                      ;
+; c:/altera/91/quartus/bin/assignment_defaults.qdf ;
+; ChTK4nsOut.bdf                                   ;
+; coin_logic.vhd                                   ;
+; coin_reference.vhd                               ;
+; DelayMem1.mif                                    ;
+; GRP4ch.bdf                                       ;
+; GRP32ch.bdf                                      ;
+; lpm_add_sub0.bsf                                 ;
+; lpm_add_sub0.inc                                 ;
+; lpm_add_sub0.qip                                 ;
+; lpm_add_sub0.tdf                                 ;
+; lpm_add_sub1.bsf                                 ;
+; lpm_add_sub1.inc                                 ;
+; lpm_add_sub1.qip                                 ;
+; lpm_add_sub1.tdf                                 ;
+; lpm_add_sub2.bsf                                 ;
+; lpm_add_sub2.inc                                 ;
+; lpm_add_sub2.qip                                 ;
+; lpm_add_sub2.tdf                                 ;
+; lpm_compare0.bsf                                 ;
+; lpm_compare0.inc                                 ;
+; lpm_compare0.qip                                 ;
+; lpm_compare0.tdf                                 ;
+; lpm_counter0.bsf                                 ;
+; lpm_counter0.inc                                 ;
+; lpm_counter0.qip                                 ;
+; lpm_counter0.vhd                                 ;
+; lpm_counter1.bsf                                 ;
+; lpm_counter1.inc                                 ;
+; lpm_counter1.qip                                 ;
+; lpm_counter1.tdf                                 ;
+; lpm_counter2.bsf                                 ;
+; lpm_counter2.inc                                 ;
+; lpm_counter2.qip                                 ;
+; lpm_counter2.vhd                                 ;
+; lpm_counter3.bsf                                 ;
+; lpm_counter3.inc                                 ;
+; lpm_counter3.qip                                 ;
+; lpm_counter3.tdf                                 ;
+; lpm_decode0.bsf                                  ;
+; lpm_decode0.inc                                  ;
+; lpm_decode0.qip                                  ;
+; lpm_decode0.tdf                                  ;
+; lpm_decode1.bsf                                  ;
+; lpm_decode1.inc                                  ;
+; lpm_decode1.qip                                  ;
+; lpm_decode1.tdf                                  ;
+; lpm_mux0.bsf                                     ;
+; lpm_mux0.inc                                     ;
+; lpm_mux0.qip                                     ;
+; lpm_mux0.tdf                                     ;
+; lpm_mux1.bsf                                     ;
+; lpm_mux1.inc                                     ;
+; lpm_mux1.qip                                     ;
+; lpm_mux1.tdf                                     ;
+; lpm_mux2.bsf                                     ;
+; lpm_mux2.inc                                     ;
+; lpm_mux2.qip                                     ;
+; lpm_mux2.tdf                                     ;
+; lpm_mux3.bsf                                     ;
+; lpm_mux3.inc                                     ;
+; lpm_mux3.qip                                     ;
+; lpm_mux3.tdf                                     ;
+; lpm_mux4.bsf                                     ;
+; lpm_mux4.inc                                     ;
+; lpm_mux4.qip                                     ;
+; lpm_mux4.tdf                                     ;
+; lpm_mux5.bsf                                     ;
+; lpm_mux5.inc                                     ;
+; lpm_mux5.qip                                     ;
+; lpm_mux5.tdf                                     ;
+; lpm_mux6.bsf                                     ;
+; lpm_mux6.inc                                     ;
+; lpm_mux6.qip                                     ;
+; lpm_mux6.tdf                                     ;
+; lpm_ram_dp0.bsf                                  ;
+; lpm_ram_dp0.inc                                  ;
+; lpm_ram_dp0.qip                                  ;
+; lpm_ram_dp0.tdf                                  ;
+; lpm_ram_dp1.bsf                                  ;
+; lpm_ram_dp1.inc                                  ;
+; lpm_ram_dp1.qip                                  ;
+; lpm_ram_dp1.tdf                                  ;
+; OutPipe1a.bdf                                    ;
+; Pulser1.bdf                                      ;
+; SeaQuestTrig1.bdf                                ;
+; SeaQuestTrig1.qpf                                ;
+; SeaQuestTrig1.qsf                                ;
+; Smaple4sh16a.bdf                                 ;
+; spare_if.vhd                                     ;
+; Timing1.bdf                                      ;
+; tristate_if.vhd                                  ;
+; v1495usr_hal.vqm                                 ;
+; v1495usr_pkg.vhd                                 ;
++--------------------------------------------------+
+
+

@@ -1,0 +1,45 @@
+143c143,146
+<       SCRATCH_OUT     : OUT    std_logic_vector (15 DOWNTO 0)
+---
+>       SCRATCH_OUT     : OUT    std_logic_vector (15 DOWNTO 0);
+>       -- EventID and flush event read 
+>       EVENTID_OUT     : OUT    std_logic_vector (31 DOWNTO 0);
+>       READ_CTRL       : OUT    std_logic_vector (15 DOWNTO 0)
+172a176,178
+> 
+> signal EVENTID    : std_logic_vector(31 downto 0); 
+> signal READ_C     : std_logic_vector(15 downto 0);
+213c219
+<    REVISION  <= X"0470"; -- 470 bend down
+---
+>    REVISION  <= X"0470"; -- 440 non-bend up
+305a312,320
+>     
+> 
+>    --*************************************************
+>    -- EventID        
+>    --*************************************************
+>    EVENTID_OUT <= EVENTID;
+>    
+>    --Read out control
+>    READ_CTRL   <= READ_C;
+568c583,585
+<          PDL_DATA     <= X"0000";
+---
+>          PDL_DATA     <= X"0000";
+>          EVENTID      <= X"7FFFFFFF";
+>          READ_C       <= X"0000";
+597c614,617
+<              when A_PDL_DATA  => PDL_DATA                 <= REG_DIN;
+---
+>              when A_PDL_DATA  => PDL_DATA                 <= REG_DIN;
+>              when A_EVENTID_L => EVENTID(15 downto 0)     <= REG_DIN;
+>              when A_EVENTID_H => EVENTID(31 downto 16)    <= REG_DIN;
+>              when A_READ      => READ_C(15 downto 0)      <= REG_DIN;
+637c657,660
+<              when A_FIDCODE     => REG_DOUT   <= X"000" & '0' & F_IDCODE;
+---
+>              when A_FIDCODE     => REG_DOUT   <= X"000" & '0' & F_IDCODE;
+>              when A_EVENTID_L   => REG_DOUT   <= EVENTID(15 downto 0) ;
+>              when A_EVENTID_H   => REG_DOUT   <= EVENTID(31 downto 16);
+>              when A_READ        => REG_DOUT   <= READ_C(15 downto 0);

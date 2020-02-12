@@ -78,8 +78,8 @@ void treedeveloper(){
 	
 //	TCanvas* c1 = new TCanvas("c1", ""); 
 	const Char_t* host = "mysql://seaquel.physics.illinois.edu:3283/";
-	const Char_t* user = "seaguest";
-	const Char_t* pass = "qqbar2mu+mu-"; 
+	const Char_t* user = "user";
+	const Char_t* pass = "user"; 
 
 	float mass;
 
